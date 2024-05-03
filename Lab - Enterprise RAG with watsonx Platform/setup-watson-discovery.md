@@ -21,6 +21,21 @@ Sample Project: Project ini telah otomatis dibuat oleh sistem dan dapat digunaka
 Setelah Klik New Project anda akan diminta untuk mengisikan nama projek dan tipe projek anda dalam menggunakan watson discovery 
 <img width="535" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/13d459ea-9ff3-499a-9fd0-9685cda09eba">
 
+### 4. Create a new collectionto Upload Document
+A. Untuk memulai proses upload data, anda akan diminta untuk membuat _collection_ baru.
+B. Berikan _collection name_ dan pilih bahasa yang akan digunakan
+C. Upload file yang akan digunakan dengan sesederhana _drag and drop file_
+D. Klik Finish
+<img width="172" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/943966d4-a5bf-44b3-aa02-23d179a8da8b">
+E. Selain _upload file via local_ terdapat beberapa opsi untuk _upload file_. Klik _here_ pada _Need to connect to data source_
+<img width="184" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/0bb7d185-8091-4e98-af0a-0a85d94c0e5e">
+<img width="275" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e4307f7e-ae11-4367-99e6-8e72b3f605b5">
+F. Terdapat beberapa opsi _data preprocessing_ lain seperti OCR dan Stemming
+
+
+
+
+
 
 
 
