@@ -128,11 +128,12 @@ Pilih Title dan Body dan sesuaikan result quantity ke angka 3. Lalu Save
 
 Lalu tanyakan hal berikut ke bot anda
 
-''' Bot: Welcome, how can I assist you?
+```Bot: Welcome, how can I assist you?
 User: Saya mau tanya
 Bot: Apa yang ingin anda tanyakan?
 User: perlindungan data pribadi
-Bot: Berikut informasi yang saya temukan di content store … '''
+Bot: Berikut informasi yang saya temukan di content store …
+```
 
 <img width="157" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/a3f97ff8-13c9-4fbd-b95e-0523f996ae9c">
 
