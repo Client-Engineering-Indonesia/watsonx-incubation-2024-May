@@ -27,7 +27,8 @@ Sample Project: Project ini telah otomatis dibuat oleh sistem dan dapat digunaka
 ### 3. Creating a new project
 Setelah Klik New Project anda akan diminta untuk mengisikan nama projek dan tipe projek anda dalam menggunakan watson discovery 
 
-<img width="535" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/13d459ea-9ff3-499a-9fd0-9685cda09eba">
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/9fd0da8b-9be8-4a65-9064-331203c79e82">
+
 
 ### 4. Create a new collectionto Upload Document
 A. Untuk memulai proses upload data, anda akan diminta untuk membuat _collection_ baru.
@@ -45,6 +46,8 @@ E. Selain _upload file via local_ terdapat beberapa opsi untuk _upload file_. Kl
 
 ### 5. Click on Improve and customize
 Jika anda memilih opsi _conversation search_ sebagai _project type_, watson discovery akan memprovide chatbot internal untuk melakukan tanya jawab dari dokumen. 
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/5b393765-8e71-4570-ac45-3e90219e7af5">
 
 
 
