@@ -32,8 +32,11 @@ Setelah Klik New Project anda akan diminta untuk mengisikan nama projek dan tipe
 
 ### 4. Create a new collectionto Upload Document
 A. Untuk memulai proses upload data, anda akan diminta untuk membuat _collection_ baru.
+
 B. Berikan _collection name_ dan pilih bahasa yang akan digunakan
+
 C. Upload file yang akan digunakan dengan sesederhana _drag and drop file_
+
 D. Klik Finish
 
 <img width="172" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/943966d4-a5bf-44b3-aa02-23d179a8da8b">
@@ -52,6 +55,26 @@ Jika anda memilih opsi _conversation search_ sebagai _project type_, watson disc
 _Notes:_
 
 _Improvement tools_: Tools ini dapat digunakan untuk meningkatkan result dari watson discovery. Buka link [berikut](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) untuk mempelajari lebih lanjut. 
+
+### 6. Manage collections
+
+Apabila anda berpindah ke _navigation menu_. Anda dapat memilih _manage colletion_ untuk melihat daftar _collection_ yang sebelumnya telah dibuat. 
+
+<img width="123" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/908fa328-cd33-4f08-b065-91a32bb05332">
+<img width="401" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/f446b996-3267-42bf-aa3e-ba1f5245fdef">
+
+Klik _preview data_ maka anda dapat melihat dokumen yang telah diupload
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/c2f9ff71-732c-4e17-8a36-faef8d12b278">
+
+### 7. Add More Collection
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b209a233-16c7-4f0c-93d0-74b1d4441786">
+
+Anda dapat menggunakan dokumen berikut ini untuk anda upload, ikutin proses yang sama seperti sebelumnya. 
+
+
+
 
 
 
