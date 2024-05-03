@@ -96,8 +96,63 @@ Klik kembali _new step_ dan pilih _Re-ask previous step(s)_ and pilih from step 
 <img width="272" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1aedc81e-8bb1-44ac-a0d4-1d38bc8a209d">
 <img width="218" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/a4d81c11-c81f-47fd-80f9-216a897ce2d8">
 
-Jangan lupa untuk selalu _clik save_
+Jangan lupa untuk selalu _clik save_ setiap selesai membuat flow atau melakukan pembaharuan atau sebelum berpindah flow.
+
 <img width="100" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/d71ad2ea-2d4e-4309-8823-747e57cb9c0e">
+
+### 15. Select the Environments
+
+Select _Environments_ pastikan anda ada di model _draft_. Karena terdapat 2 _environment_ yakni _draft & live_
+
+<img width="359" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/02d3e5ab-ba91-480e-bb25-1f283923efbc">
+
+### 16. Add Search Extension
+
+Untuk menambahkan _search capabilities_ ke Watson Assistant klik _“Add +”_
+
+<img width="208" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/913ac9d7-9ca5-44b3-a84e-864ddc2d4422">
+
+### 17. Select the Project
+
+Setelah memilih watson discovery, pilih instance Discovery untuk dapat terhubung dengan watson discovery project yang telah kita buat sebelumnya.
+<img width="472" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/6a196ad7-c3a2-49cf-9ba9-a9ba93046383">
+
+### 18. Configure the Search Integration
+
+Pilih Title dan Body dan sesuaikan result quantity ke angka 3. Lalu Save
+
+<img width="419" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/fc2d5947-c73c-4860-9794-2cb3bf759ea5">
+
+### 19. Re-visit the Action
+
+Lalu tanyakan hal berikut ke bot anda
+
+Bot: Welcome, how can I assist you?
+
+User: Saya mau tanya
+
+Bot: Apa yang ingin anda tanyakan?
+
+User: perlindungan data pribadi
+
+Bot: Berikut informasi yang saya temukan di content store …
+
+<img width="157" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/a3f97ff8-13c9-4fbd-b95e-0523f996ae9c">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
