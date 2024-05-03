@@ -182,7 +182,55 @@ selain itu terdapat parameter _input_ yang akan diisikan dengan prompt yang kita
 ("Anda adalah asisten yang membantu, sopan, dan jujur. Selalu jawab sebisa mungkin dengan cara yang membantu, sambil tetap aman. Jawaban Anda tidak boleh mengandung konten yang berbahaya, tidak etis, rasialis, seksis, beracun, berbahaya, atau ilegal. Pastikan bahwa respons Anda bersifat sosial tidak memihak dan positif. \nKonteks:").concat($retrieval_result).concat("\nPertanyaan:").concat($user_question).concat("\nChat history:").concat("$Session history").concat("\nHarap pahami konteksnya dan jawablah pertanyaan berdasarkan informasi yang diberikan. Identifikasi dan ekstrak URL yang disebutkan dalam konteks jika berkaitan dengan pertanyaan. Jangan sertakan URL yang tidak berhubungan dalam jawaban Anda. Berikan jawaban secara berurutan jika diperlukan atau berikan daftar yang jelas dan ringkas. Jika suatu pertanyaan tidak masuk akal atau tidak koheren secara faktual, jelaskan mengapa daripada menjawab sesuatu yang tidak benar. Jika Anda tidak tahu jawaban atas suatu pertanyaan, tolong jangan memberikan informasi palsu. Jika konteks atau history chat tidak ada hubungan dengan pertanyaan, jawab saja tidak tahu. \nJawaban:")
 ```
 
-### 13. 
+### 13. Generate the Watsonx.AI result
+
+<img width="354" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/cfbe6893-7576-4f05-a456-f1f45d429e17">
+
+Selanjutnya, klik _New Step_ dan buat _Session Variable_ baru dengan nama _generation_result_ dengan tipe data _Any_ 
+
+<img width="392" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/58b8c1e8-f3d0-42f1-ad7b-94ee704a097c">
+
+Definisikan variable tersebut menggunakan syntax berikut:
+```
+body.result[0].generated_text.
+````
+
+### 14. Compare the result
+
+Klik _Preview_ dan tanyakan pertanyaan berikut: "”tata cara pembukaan digital branch?” Anda dapat membandingkan hasil yang didapatkan sebagai berikut:
+
+<img width="148" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/0a99669f-0414-42dc-af69-a5f02a9bf5fd">
+
+Pertanyaan yang diajukan
+
+<img width="148" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/56ddf56e-4d6c-4893-96af-66e5f6341f2e">
+
+Hasul dari watson Discovery
+
+<img width="145" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/ddad374d-95e1-4a96-8459-59a9ed0dce0e">
+
+Hasil dengan watsonx.AI
+
+### 15. Remove Answer dari watson Discovery
+
+<img width="401" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/47d48737-7fce-4b92-91ac-b8dbdb286845">
+
+Apabila anda telah yakin bahwa hasil dari Discoery dan AI telah sama dan ter-generate. Anda dapat merapihkan output dari watsonx Assistant dengan menghapus hasil original dari watson discovery. Klik tombol delete (_Trash Bin_) yang terdapat pada _Action step_ yang ingin anda hapus.
+
+### 16. Re-Ask Previous Step
+
+<img width="209" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/95057c76-48e0-417b-b2cf-0cfecf1f1666">
+
+Lakukan proses berikut agar setelah anda menanyakan pertanyaan dan watson assistant mengeluarkan hasil, kita dapat menanyakan pertanyaan lainnya. 
+
+### 17. Preview Result. 
+
+
+
+
+
+
+
 
 
 
