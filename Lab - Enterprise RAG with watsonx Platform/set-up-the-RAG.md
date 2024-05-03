@@ -160,7 +160,7 @@ parameters.max_new_tokens: 300
 parameters.min_new_tokens: 1
 version: 2023-05-29
 ```
-<img width="201" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/06510687-a05d-4d2d-9dc2-aa42471ac5e0">The output from Watson Discovery (retrieval_result) used as an input, along with user_question and Session history (a history that store user – agent conversation)![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b882c854-1eaf-4f07-8c6f-7861e8d081d9)
+<img width="201" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/06510687-a05d-4d2d-9dc2-aa42471ac5e0">
 
 Informasi _Project ID_ dapat ditemukan pada _watsonx.ai project >> Manage >> General_
 
