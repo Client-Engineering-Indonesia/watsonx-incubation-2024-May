@@ -25,7 +25,7 @@ Isi _Basic Information_ yang dibutuhkan
 
 ### 2. Prepare the OAS (Open API Specification)
 
-OAS yang akan digunakan telah kami berikan pada folder "Lab - Enterprise RAG with watsonx Platform" terdapat OAS dengan nama _wx_oas.json_ dan _discovery.json_
+OAS yang akan digunakan telah kami berikan pada folder "Lab - Enterprise RAG with watsonx Platform" terdapat OAS dengan nama _wx_oas.json_ dan _watson-discovery-query-openapi.json_
 
 _OAS defines a standard, language-agnostic interface to HTTP APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. You need to provide OAS as a JSON file format. This will describe the API structure you have and help the Watson assistant to send a request and represent the received response._
 
