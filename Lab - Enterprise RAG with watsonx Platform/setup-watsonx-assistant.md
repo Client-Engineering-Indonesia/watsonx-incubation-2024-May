@@ -89,6 +89,18 @@ Pada _custom query part_ tambahkan tanda "$" dan pilih _user_question_. Hal ini 
 
 <img width="185" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/690c31e4-5b23-430b-948b-1f3e8824f5e4">
 
+### 14. Add step 3
+
+Klik kembali _new step_ dan pilih _Re-ask previous step(s)_ and pilih from step _1. Click Apply_
+
+<img width="272" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1aedc81e-8bb1-44ac-a0d4-1d38bc8a209d">
+<img width="218" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/a4d81c11-c81f-47fd-80f9-216a897ce2d8">
+
+Jangan lupa untuk selalu _clik save_
+<img width="100" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/d71ad2ea-2d4e-4309-8823-747e57cb9c0e">
+
+
+
 
 
 
