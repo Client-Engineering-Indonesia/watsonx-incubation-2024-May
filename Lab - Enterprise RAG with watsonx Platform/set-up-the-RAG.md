@@ -146,7 +146,46 @@ Set nilai parameternya sebagai _$body.result[0].passage_text_ dengan menggunakan
 
 <img width="185" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/57bd514a-cca2-455e-8e4b-691aab6d2355">
 
-Apabila anda telah mencapai tahap ini, seharusnya anda telah mampu melakukan query informasi dari watson discovery. anda dapat klik _preview result_. 
+Apabila anda telah mencapai tahap ini, seharusnya anda telah mampu melakukan query informasi dari watson discovery, anda dapat klik _preview result_. 
+
+### 11. Applying watsonx.AI Extension
+
+<img width="324" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1e7cbfc0-d843-44c0-9f83-85e113760e30">
+
+Klik _New Step_ dan pilih kembali _Use an Extension_ lalu pilih extension watsonx.AI. Terdapat beberapa parameter yang dapat diisikan sebagai berikut:
+```
+model_id: meta-llama/llama-2-70b-chat
+project_id: <your-watsonx.ai-project-id>
+parameters.max_new_tokens: 300
+parameters.min_new_tokens: 1
+version: 2023-05-29
+```
+<img width="201" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/06510687-a05d-4d2d-9dc2-aa42471ac5e0">The output from Watson Discovery (retrieval_result) used as an input, along with user_question and Session history (a history that store user – agent conversation)![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b882c854-1eaf-4f07-8c6f-7861e8d081d9)
+
+Informasi _Project ID_ dapat ditemukan pada _watsonx.ai project >> Manage >> General_
+
+### 12. Fill in the input field.
+
+<img width="410" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/fde7f57d-240a-44a0-8fd6-d7eada7da82b">
+
+Dalam pendifinisiaan saat ini, kita mendefinisikan parameter _Input_ sebagai prompt yang akan digunakan untuk mendapatkan jawaban yang kita inginkan.
+Terdapat tiga paramter yang perlu diperhatikan:
+```
+retrieval_result: hasil dari watson Discovery
+user_question: pertanyaan yang diajukan user
+Session History: Riwayat percakapan sebelumya pada session yang sama
+```
+<img width="410" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/f0713475-582c-4ad7-8154-3c8ab0c001b1">
+
+selain itu terdapat parameter _input_ yang akan diisikan dengan prompt yang kita gunakan. Anda dapat menggunakan prompt berikut dan copy kedalam field _input_ yang anda gunakan.
+```
+("Anda adalah asisten yang membantu, sopan, dan jujur. Selalu jawab sebisa mungkin dengan cara yang membantu, sambil tetap aman. Jawaban Anda tidak boleh mengandung konten yang berbahaya, tidak etis, rasialis, seksis, beracun, berbahaya, atau ilegal. Pastikan bahwa respons Anda bersifat sosial tidak memihak dan positif. \nKonteks:").concat($retrieval_result).concat("\nPertanyaan:").concat($user_question).concat("\nChat history:").concat("$Session history").concat("\nHarap pahami konteksnya dan jawablah pertanyaan berdasarkan informasi yang diberikan. Identifikasi dan ekstrak URL yang disebutkan dalam konteks jika berkaitan dengan pertanyaan. Jangan sertakan URL yang tidak berhubungan dalam jawaban Anda. Berikan jawaban secara berurutan jika diperlukan atau berikan daftar yang jelas dan ringkas. Jika suatu pertanyaan tidak masuk akal atau tidak koheren secara faktual, jelaskan mengapa daripada menjawab sesuatu yang tidak benar. Jika Anda tidak tahu jawaban atas suatu pertanyaan, tolong jangan memberikan informasi palsu. Jika konteks atau history chat tidak ada hubungan dengan pertanyaan, jawab saja tidak tahu. \nJawaban:")
+```
+
+### 13. 
+
+
+
 
 
 
