@@ -1,28 +1,28 @@
 # watson Discovery Set-Up Process
 
 ## Introduction
-Watson Discovery is an award-winning AI-powered intelligent search and text-analytics platform that eliminates data silos and retrieves information buried inside enterprise data. It uses innovative, market-leading natural language processing (NLP) to uncover meaningful business insights from documents, webpages, and big data. Watson Discovery makes it possible to rapidly build cognitive, cloud-based exploration applications that unlock actionable insights hidden in unstructured data including your own proprietary data, as well as public and third-party data.
+_Watson Discovery is an award-winning AI-powered intelligent search and text-analytics platform that eliminates data silos and retrieves information buried inside enterprise data. It uses innovative, market-leading natural language processing (NLP) to uncover meaningful business insights from documents, webpages, and big data. Watson Discovery makes it possible to rapidly build cognitive, cloud-based exploration applications that unlock actionable insights hidden in unstructured data including your own proprietary data, as well as public and third-party data._
 
 ## Uploading Document Process
 ### 1. Launch Watson Discovery
-Klik "Launch Watson Discovery" untuk mulai membuat projek
+Klik _"Launch Watson Discovery"_ untuk mulai membuat projek
 
 <img width="521" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/8d2865ec-a29e-444f-a105-7de3e45d2257">
 
-Notes:
+_Notes:_
 
-API key and URL information: _Credentials_ digunakan untuk menghubungkan Watson Discovery ke service atau aplikasi lain. 
+_API key and URL information:_ _Credentials_ digunakan untuk menghubungkan Watson Discovery ke service atau aplikasi lain. 
 
-Plan of Watson Discovery: Terdapat paket _Plus, Enterprise, Premium Plan_. Informsi lebih lanjut dapat ditemukan pada [Pricing Watson Discovery](https://www.ibm.com/products/watson-discovery/pricing)
+_Plan of Watson Discovery:_ Terdapat paket _Plus, Enterprise, Premium Plan_. Informsi lebih lanjut dapat ditemukan pada [Pricing Watson Discovery](https://www.ibm.com/products/watson-discovery/pricing)
 
 ### 2. Build your First Project
 Terdapat Project dan Collections pada Watson Discovery yang dapat digunakan untuk mengatur utilisasi Dokumen yang kita miliki. Untuk memulai proses anda dapat klik "New Project"
 
 <img width="570" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/32fa4387-3bb6-4a02-818a-66e0f47f5e49">
 
-Notes: 
+_Notes:_
 
-Sample Project: Project ini telah otomatis dibuat oleh sistem dan dapat digunakan untuk melakukan ekplorasi kapabilitas watson Discovery
+_Sample Project_: Project ini telah otomatis dibuat oleh sistem dan dapat digunakan untuk melakukan ekplorasi kapabilitas watson Discovery
 
 ### 3. Creating a new project
 Setelah Klik New Project anda akan diminta untuk mengisikan nama projek dan tipe projek anda dalam menggunakan watson discovery 
@@ -49,9 +49,9 @@ Jika anda memilih opsi _conversation search_ sebagai _project type_, watson disc
 
 <img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/5b393765-8e71-4570-ac45-3e90219e7af5">
 
-Notes:
+_Notes:_
 
-Improvement tools: Tools ini dapat digunakan untuk meningkatkan result dari watson discovery, [Documentation](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) Buka link berikut untuk mempelajari lebih lanjut. 
+_Improvement tools_: Tools ini dapat digunakan untuk meningkatkan result dari watson discovery. Buka link [berikut](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) untuk mempelajari lebih lanjut. 
 
 
 
