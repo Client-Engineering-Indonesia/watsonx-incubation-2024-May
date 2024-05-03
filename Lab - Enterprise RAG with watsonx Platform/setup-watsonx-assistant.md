@@ -34,6 +34,22 @@ Anda dapat menamakan _action_ berdasarkan topik pembicaraan atau berdasarkan fra
 
 <img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/bb8b94f9-8f70-4e73-b296-f93d2c834ee4">
 
+### 7. Add the response into “Assistant says”
+
+Ketika user mengatakan: 
+“Saya ingin bertanya” atau kalimat lainnya yang dibutuhkan.
+Asisten lalu akan mengatakan : “apa yang ingin anda tanyakan?”
+
+<img width="298" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/568abe42-9fcd-4383-99e2-21d206cf01d3">
+
+### 8. Define the customer response.
+
+
+
+
+
+
+
 
 
 
