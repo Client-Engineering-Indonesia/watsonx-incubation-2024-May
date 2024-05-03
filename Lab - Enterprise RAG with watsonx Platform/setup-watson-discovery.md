@@ -49,6 +49,10 @@ Jika anda memilih opsi _conversation search_ sebagai _project type_, watson disc
 
 <img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/5b393765-8e71-4570-ac45-3e90219e7af5">
 
+Notes:
+
+Improvement tools: Tools ini dapat digunakan untuk meningkatkan result dari watson discovery, [Documentation](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) Buka link berikut untuk mempelajari lebih lanjut. 
+
 
 
 
