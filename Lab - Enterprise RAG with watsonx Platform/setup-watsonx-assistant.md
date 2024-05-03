@@ -77,6 +77,22 @@ Set nilai _user_question_ menjadi _”Action step variable”_ dari (1. apa yang
 
 ### 12. Set the response into _”Search for the Answer”_
 
+Search for the answer untuk menghubungkan flow conversation dengan _searching capabilities_ seperti Watson Discovery dan Elastic Search. Klik dan Klik _edit settings_
+
+<img width="315" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/90e40850-4518-40c8-b57d-da8811cfab9e">
+
+### 13. Add user_query as input of the Search for the answer.
+
+Pada _custom query part_ tambahkan tanda "$" dan pilih _user_question_. Hal ini berarti maka _user_question_ akan menjadi _keywords_ untuk mencari informasi dari _content storage_
+
+<img width="210" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b3a2f2f0-4c84-4f39-9f15-d7a2d3ad7fd5">
+
+<img width="185" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/690c31e4-5b23-430b-948b-1f3e8824f5e4">
+
+
+
+
+
 
 
 
