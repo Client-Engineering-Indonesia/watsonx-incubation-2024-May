@@ -142,6 +142,12 @@ Buat parameter baru dengan nama _"retrieval_result"_ dengan tipe data _"Any"_
 
 Set nilai parameternya sebagai _$body.result[0].passage_text_ dengan menggunakan _expression_ tersebut. Kita dapat menggunakan hasil dari _searching_ yang dilakukan untuk proses selanjutnya.
 
+### 10. Preview Result 
+
+<img width="185" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/57bd514a-cca2-455e-8e4b-691aab6d2355">
+
+Apabila anda telah mencapai tahap ini, seharusnya anda telah mampu melakukan query informasi dari watson discovery. anda dapat klik _preview result_. 
+
 
 
 
