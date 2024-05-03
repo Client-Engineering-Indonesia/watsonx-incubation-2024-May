@@ -6,7 +6,28 @@ Watson Discovery is an award-winning AI-powered intelligent search and text-anal
 ## Uploading Document Process
 ### 1. Launch Watson Discovery
 Klik "Launch Watson Discovery" untuk mulai membuat projek
-![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/3db174bc-61ed-4977-ba6f-bed174900d4e)
+<img width="521" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/8d2865ec-a29e-444f-a105-7de3e45d2257">
+Notes:
+API key and URL information: _Credentials_ digunakan untuk menghubungkan Watson Discovery ke service atau aplikasi lain. 
+Plan of Watson Discovery: There is a Plus, Enterprise, Premium Plan. Informsi lebih lanjut dapat ditemukan pada [Pricing Watson Discovery](https://www.ibm.com/products/watson-discovery/pricing)
+
+### 2. Build your First Project
+Terdapat Project dan Collections pada Watson Discovery yang dapat digunakan untuk mengatur utilisasi Dokumen yang kita miliki. Untuk memulai proses anda dapat klik "New Project"
+<img width="570" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/32fa4387-3bb6-4a02-818a-66e0f47f5e49">
+Notes: 
+Sample Project: Project ini telah otomatis dibuat oleh sistem dan dapat digunakan untuk melakukan ekplorasi kapabilitas watson Discovery
+
+### 3. Creating a new project
+Setelah Klik New Project anda akan diminta untuk mengisikan nama projek dan tipe projek anda dalam menggunakan watson discovery 
+<img width="535" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/13d459ea-9ff3-499a-9fd0-9685cda09eba">
+
+
+
+
+
+
+
+
 
 
 
