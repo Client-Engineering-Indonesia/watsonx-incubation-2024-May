@@ -1,4 +1,4 @@
-# Setup watsonx Assistant
+![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/aa78b435-a531-45f6-ae38-b79374d3af64)# Setup watsonx Assistant
 
 ### 1. Log in ke halaman watsonx Assistant anda
 Ketika membuka source watsonx assistant pertama kali. Anda akan diarahkan kepada laman berikut, isi nama bot sesuai dengan kebutuhan anda. Berikan deskripsi apabila diperlukan dan pilih Assistant language dengan _“Another Language”_
@@ -56,6 +56,36 @@ Lalu buat step percakapan baru dengan klik _“New step”_
 
 
 ### 9. Create step 2
+
+Tujuan dari tahap ini untuk menyimpan response yang telah diberikan oleh user sebagai _session variable_ yang nantinya dapat digunakan kembali. Klik _Set Variable values_ lalu klik _set new values_. Pada tombol drop down click _New session variable_
+
+<img width="247" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/c327344f-aef2-4ecf-a4c6-c2ebae7ec9c9">
+
+### 10. Create a new Session variable!
+
+Pada opsi _session variable_. Tambahkan _user_question_ sebagai _variable name_ lalu set tipe data menjadi _Any_. Selanjutnya klik _apply_
+
+<img width="188" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/d1b55ff6-a957-45c3-9f24-d60715cb7d43">
+
+### 11. Set user_question values.
+
+Set nilai _user_question_ menjadi _”Action step variable”_ dari (1. apa yang ingin anda tanyakan)”
+
+<img width="210" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/39436bc9-b29b-4ec2-a317-1c4f77c1ea0f">
+
+<img width="162" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/d0d4c9a2-ea4b-46e0-bbcd-6438d971faa8">
+
+### 12. Set the response into _”Search for the Answer”_
+
+
+
+
+
+
+
+
+
+
 
 
 
