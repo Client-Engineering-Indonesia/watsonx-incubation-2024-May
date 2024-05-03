@@ -115,6 +115,7 @@ Untuk menambahkan _search capabilities_ ke Watson Assistant klik _“Add +”_
 ### 17. Select the Project
 
 Setelah memilih watson discovery, pilih instance Discovery untuk dapat terhubung dengan watson discovery project yang telah kita buat sebelumnya.
+
 <img width="472" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/6a196ad7-c3a2-49cf-9ba9-a9ba93046383">
 
 ### 18. Configure the Search Integration
