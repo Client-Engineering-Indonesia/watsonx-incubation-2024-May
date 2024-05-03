@@ -14,5 +14,5 @@ Anda juga dapat melakukan kostumisasi untuk tampilan watsonx assistant anda, sep
 
 <img width="521" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/97c4a595-193b-4a5e-835f-7998f69a185c">
 
-**Untuk melanjutkan proses anda harus melakukan konfigurasi di watso discovery terlebih dahulu klik link berikut [Set Up Watson Discovery]()**
+**Untuk melanjutkan proses anda harus melakukan konfigurasi di watso discovery terlebih dahulu klik link berikut [Set Up Watson Discovery](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%20-%20Enterprise%20RAG%20with%20watsonx%20Platform/setup-watson-discovery.md)**
 
