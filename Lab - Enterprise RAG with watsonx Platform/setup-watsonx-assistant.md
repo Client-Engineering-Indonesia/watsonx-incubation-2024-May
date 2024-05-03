@@ -44,6 +44,21 @@ Asisten lalu akan mengatakan : “apa yang ingin anda tanyakan?”
 
 ### 8. Define the customer response.
 
+Anda dapat mendefiniskan _customer response_ dalam beberapa tipe, salah satunya adalah _”free text”_
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1ca590ba-a0e7-4765-b4cf-ece32ea007e8">
+
+Click_ “Continue to next step”_
+
+Lalu buat step percakapan baru dengan klik _“New step”_
+
+<img width="66" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1d8755a1-74b3-4b49-ac7c-18f56eafb2bc">
+
+
+### 9. Create step 2
+
+
+
 
 
 
