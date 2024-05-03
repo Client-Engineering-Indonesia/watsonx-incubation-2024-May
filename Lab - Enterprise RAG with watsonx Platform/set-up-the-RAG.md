@@ -64,7 +64,8 @@ Anda dapat memilih API dari watson Discovery pada step pertama.
 
 <img width="245" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/c3085466-c847-4877-b4cd-ef8e6ec185e9">
 
-Gunakan Informasi yang ada dibawah ini untuk membuat _extension_ watsonx.AI 
+Gunakan Informasi yang ada dibawah ini untuk membuat _extension_ watsonx.AI
+
 A. Extension name: Generation WX
 
 B. Authentication type: Oauth 2.0
@@ -94,7 +95,66 @@ D. _Download or Copy your API Keys_
 ### 7. Re-create the action flow. 
 
 Setelah selesai membuat _extension_ buka kembali action dan pilih flow yang sebelumnya telah dibuat. Apabila sebelumnya kita menggunakan _search extension_ kali ini kita akan menggunakan _Retrieval WD_ dan _Generation WX_. Saat memilih _User Response_ pilih _Use an Extension_.
+
 <img width="177" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/04d9f9e0-a1f1-47e8-87cf-7fc0a3a15862">
+
+### 8. _Use Retrieval WD Extension_
+
+<img width="162" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/cfed900a-88fc-4939-91cd-69608606b99b">
+
+Isikan informasi yang diminta untuk dapat menggunakan _extension_ Retrieval WD
+
+project_id: <your-WD-project-id>
+
+version: 2022-08-01
+
+Buka kembali laman Watson Discovery dan klik _integrate and deploy_. Copy _Project ID_ yang anda temukan
+
+<img width="239" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/ed12c7f6-e172-41f0-aa57-0f380f40e3b4">
+
+Isikan informasi yang anda dapatkan ke _field_ berikut:
+
+<img width="239" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/eae9fc69-5710-4423-a7ea-1a48920058cb">
+
+Selain parameter utama, terdapat beberapa parameter tambahan yang bisa anda gunakan untuk meningkatkan performa dari _searching method_ yang kita gunakan:
+
+count: 3
+
+return: ["title","metadata.source.url"]
+
+similar.fields: ["text"]
+
+passages.enabled: True
+
+passages.characters: 500
+
+passages.find_answers: True
+
+table_results.enabled: False
+
+natural_language_query: $user_question
+
+<img width="180" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/7535c541-32a6-4296-8417-f7efa1cdfa76">
+
+### 9. Create Session Variable to store the result
+
+<img width="170" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/c3b4cf41-0435-4c68-8b95-a4df017b8323">
+
+Buat parameter baru dengan nama _"retrieval_result"_ dengan tipe data _"Any"_
+
+<img width="433" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/158cf4fc-4374-4587-a7b2-e0a9e064903a">
+
+Set nilai parameternya sebagai _$body.result[0].passage_text_ dengan menggunakan _expression_ tersebut. Kita dapat menggunakan hasil dari _searching_ yang dilakukan untuk proses selanjutnya.
+
+
+
+
+
+
+
+
+
+
 
 
 
