@@ -51,10 +51,12 @@ Review ekstension yang telah dibuat
 ### 5. Setup the extension
 
 Atur Authenthication setelah klik _Next_ dari _Get Started_
+```
 Authentication: Basic Auth
 Username: apikey
 Password: <your_api_key> 
 Server: <discovery_URL without https://>
+```
 
 Anda dapat memilih API dari watson Discovery pada step pertama.
 
@@ -66,19 +68,15 @@ Anda dapat memilih API dari watson Discovery pada step pertama.
 
 Gunakan Informasi yang ada dibawah ini untuk membuat _extension_ watsonx.AI
 
+```
 A. Extension name: Generation WX
-
 B. Authentication type: Oauth 2.0
-
 C. Grant type: Custon apikey
-
 D. Apikey: <IAM_APIKEY>
-
 E. Client Authentication: Send as Body
-
 F. Header prefix: Bearer
-
 G. Servers: <your_wx.ai_region>
+```
 
 <img width="241" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e93ea81a-b8e1-47f5-a0a7-2d35ac64c4bb">
 
@@ -87,10 +85,13 @@ Terakhir Klik Finish
 <img width="254" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/db72587a-7858-4c1d-a166-183c9817fe68">
 
 Untuk mendapatkan IAM_APIKEY anda dapat mengikuti step berikut:
+
+```
 A._IBM Cloud and Select Manage_
 B. _Access IAM_
 C. _API Keys and click ”Create”._
 D. _Download or Copy your API Keys_
+```
 
 ### 7. Re-create the action flow. 
 
@@ -103,10 +104,10 @@ Setelah selesai membuat _extension_ buka kembali action dan pilih flow yang sebe
 <img width="162" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/cfed900a-88fc-4939-91cd-69608606b99b">
 
 Isikan informasi yang diminta untuk dapat menggunakan _extension_ Retrieval WD
-
+```
 project_id: <your-WD-project-id>
-
 version: 2022-08-01
+```
 
 Buka kembali laman Watson Discovery dan klik _integrate and deploy_. Copy _Project ID_ yang anda temukan
 
@@ -118,21 +119,16 @@ Isikan informasi yang anda dapatkan ke _field_ berikut:
 
 Selain parameter utama, terdapat beberapa parameter tambahan yang bisa anda gunakan untuk meningkatkan performa dari _searching method_ yang kita gunakan:
 
+```
 count: 3
-
 return: ["title","metadata.source.url"]
-
 similar.fields: ["text"]
-
 passages.enabled: True
-
 passages.characters: 500
-
 passages.find_answers: True
-
 table_results.enabled: False
-
 natural_language_query: $user_question
+```
 
 <img width="180" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/7535c541-32a6-4296-8417-f7efa1cdfa76">
 
