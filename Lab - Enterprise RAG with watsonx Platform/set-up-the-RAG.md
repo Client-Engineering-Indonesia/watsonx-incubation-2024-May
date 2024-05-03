@@ -33,7 +33,7 @@ _OAS defines a standard, language-agnostic interface to HTTP APIs which allows b
 
 ### 3. Create watsonx.AI dan Discovery Extension
 
-Kita akan membuat dua ekstension, proses akan dilakukan secara iteratif. Pertama isikan nama watsonxAI. Lalu, _Drag and Drop wx_oas.json_.
+Kita akan membuat dua ekstension, proses akan dilakukan secara iteratif. Pertama isikan nama _Retrieval WD_. Lalu, _Drag and Drop watson-discovery-query-openapi.json_.
 
 <img width="234" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/66d367c7-9d59-469b-8c4d-d0eb49715a93">
 
@@ -42,6 +42,29 @@ Kita akan membuat dua ekstension, proses akan dilakukan secara iteratif. Pertama
 Review ekstension yang telah dibuat
 
 <img width="261" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b409e967-b1e8-484c-b5bb-e2278350b112">
+
+### 4. Add the created extension
+
+<img width="96" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/b9d2ba00-2e6c-4f55-8e3c-6dc36c2883a7">
+<img width="169" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/04b4cd76-7acb-496c-ac85-27843c92215f">
+
+### 5. Setup the extension
+
+Atur Authenthication setelah klik _Next_ dari _Get Started_
+Authentication: Basic Auth
+Username: apikey
+Password: <your_api_key> 
+Server: <discovery_URL without https://>
+
+Anda dapat memilih API dari watson Discovery pada step pertama.
+
+<img width="245" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/8ce8eaac-99c7-4ed5-8e3f-a2e6b7b85d78">
+
+
+
+
+
+
 
 
 
