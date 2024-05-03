@@ -43,6 +43,9 @@ E. Selain _upload file via local_ terdapat beberapa opsi untuk _upload file_. Kl
 
 <img width="275" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e4307f7e-ae11-4367-99e6-8e72b3f605b5">
 
+### 5. Click on Improve and customize
+Jika anda memilih opsi _conversation search_ sebagai _project type_, watson discovery akan memprovide chatbot internal untuk melakukan tanya jawab dari dokumen. 
+
 
 
 
