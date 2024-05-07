@@ -5,7 +5,7 @@ Incubation Program watsonx.ai 2023 created for local in Bahasa Indonesia.To see 
 
 Berikut adalah agenda untuk watsonx.ai incubation program tahun 2023 di Indonesia.
 
-![Alt text](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-program-indonesia/blob/main/Schedule.png)
+![Alt text](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Schedule.png)
 
 Di repository ini terdapat beberapa Lab yang dapat membantu anda memahami bagaimana cara menggunakan LLM untuk kebutuhan anda.
 Berikut adalah daftar Lab yang tersedia.
