@@ -73,6 +73,52 @@ Klik _preview data_ maka anda dapat melihat dokumen yang telah diupload
 
 Anda dapat menggunakan dokumen berikut ini untuk anda upload, ikutin proses yang sama seperti sebelumnya. 
 
+## Additional Feature of watson Discovery
+### OCR 
+
+Selain dapat mengambil informasi dari PDF atau Docx file, watson discovery juga memiliki kapabilitas untuk mengupload file text yang berupa image dan dapat di OCR kan langsung.
+#### 1. Buat Collection Baru dan Upload Document Anda
+
+Pastikan untuk menyalakan fitur OCR ketika anda akan mengupload document anda
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1901d1ea-46a3-4259-bd4d-bdebabb0a1e4">
+
+#### 2. Klik Finisih lalu pergi ke Manage and Collection
+
+Tunggu saat hingga Document Processing selesai.
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/0168ade6-4be0-47f9-8be3-0b8e55077a89">
+
+Klik Preview data sesuai dengan nama project yang telah dibuat, dan bisa terlihat hasilnya. Anda akan melihat bahwa hasilnya telah menjadi text yang bisa anda preprocess lebih lanjut.
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/ca8aa53b-0e93-40e7-b65f-f4d8b63237ef">
+
+### Webcrawling
+
+Salah satu fitur lain yang dimiliki oleh watson Discovery adalah crawling data dari website tertentu.
+#### 1. Buat Collection baru
+
+Isi kan nama collection anda, lalu klik "Need to connect to a data source? Click here."
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/74fc041b-8568-4fa9-8006-5df848a08e1a">
+
+#### 2. Pilih Web Crawl
+
+Terdapat beberapa opsi yang disediakan oleh watson Discovery, untuk saat ini kita akan gunakan opsi webcrawl.
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1b8237e3-3bab-4f91-978d-a319cac34a5a">
+
+#### 3. Fill in the information needed
+
+Anda perlu untuk menspesifikasi intensitas crawling serta website yang anda akan jadikan source crawling
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/1b462097-1f59-4771-bc13-81bac0fdf354">
+
+Selain itu, anda dapat melakukan crawling ke lebih dari satu website
+
+<img width="467" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e246ce0e-59c2-4272-bacd-82659dea0986">
+
+Terakhir Klik Finisih dan tunggu proses selesai. 
 
 
 
@@ -91,6 +137,10 @@ Anda dapat menggunakan dokumen berikut ini untuk anda upload, ikutin proses yang
 
 
 
-List Pertanyaan
-1. Pemrosesan data Pribadi meliputi
-2. Ketentuan Pemasangan alat pemroses atau pengolah data visual di tempat umum
+
+
+
+
+
+
+
