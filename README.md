@@ -5,6 +5,7 @@ This repository comprises multiple labs designed to facilitate your comprehensio
 
 ## Labs tutorial
 Let's start from the beginning, following Lab 0 sequentially to ensure a smooth understanding and progression through the subsequent labs:
+
 - [Lab 0 - Laptop Environment Check](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%200%20-%20Laptop%20Environment%20Check/README.md)
 - [Lab 1 - Using Prompt Lab for Prompt Engineering](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%201%3A%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B%20%20(classification%20and%20entity%20extraction)/README.md)
 - [Lab 2 - Using IBM Python SDK](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%202%3A%20Common%20Use%20Cases%20for%20Prompt%20Lab%E2%80%8B%20%20(Summarization%20and%20QnA)/readme.md)
@@ -15,6 +16,9 @@ Let's start from the beginning, following Lab 0 sequentially to ensure a smooth 
 
 ## two days agenda
 Below is the agenda for the watsonx Incubation Program 2024 in Indonesia:
+
 ![WatsonX Logo](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/63336c16-1629-4391-be55-1ab58a234963)
+
+We encourage all participants to actively engage in the program, ask questions, and seek assistance if needed. Stay tuned for updates and announcements regarding the schedule or any additional resources that may enhance your learning experience. We're excited about your participation and the opportunity to explore the potential of watsonx technologies together!
 
 Happy Coding!
