@@ -1,4 +1,4 @@
-# watsonx Workshop Indonesia
+# watsonx workshop Indonesia
 Welcome to the WatsonX Workshop Indonesia, an innovative incubation program tailored for local participants fluent in Bahasa Indonesia. This workshop aims to provide comprehensive insights into leveraging WatsonX's enterprise-grade generative AI capabilities across various applications. Through a series of hands-on labs, you will be guided from understanding the fundamentals of generative AI to practical implementation in specific use cases.
 
 This repository comprises multiple labs designed to facilitate your comprehension of utilizing Large Language Models (LLMs) to address your specific requirements.
