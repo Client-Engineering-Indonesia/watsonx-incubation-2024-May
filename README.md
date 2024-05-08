@@ -1,4 +1,4 @@
-![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/48a73c46-36d3-4e50-9363-0844dcb7da70)# watsonx workshop for Indonesia
+# watsonx workshop for Indonesia
 Welcome to the WatsonX Workshop Indonesia, an innovative incubation program tailored for local participants fluent in Bahasa Indonesia. This workshop aims to provide comprehensive insights into leveraging WatsonX's enterprise-grade generative AI capabilities across various applications. Through a series of hands-on labs, you will be guided from understanding the fundamentals of generative AI to practical implementation in specific use cases.
 
 This repository comprises multiple labs designed to facilitate your comprehension of utilizing Large Language Models (LLMs) to address your specific requirements.
@@ -18,7 +18,7 @@ Let's start from the beginning, following Lab 0 sequentially to ensure a smooth 
 Below is the agenda for the watsonx Incubation Program 2024 in Indonesia:
 
 
-![watsonx Logo](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/f73b63ec-9ed6-472f-a655-a089a87e3191)
+![watsonx Logo](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/48a73c46-36d3-4e50-9363-0844dcb7da70)
 
 We encourage all participants to actively engage in the program, ask questions, and seek assistance if needed. Stay tuned for updates and announcements regarding the schedule or any additional resources that may enhance your learning experience. We're excited about your participation and the opportunity to explore the potential of watsonx technologies together!
 
