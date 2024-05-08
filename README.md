@@ -18,8 +18,7 @@ Let's start from the beginning, following Lab 0 sequentially to ensure a smooth 
 Below is the agenda for the watsonx Incubation Program 2024 in Indonesia:
 
 
-<img width="1325" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/cc75ae97-5343-406c-8ac8-9269d3a7d135">
-
+![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/412776e9-caca-4ce0-bbc1-0b1d7829dae7)
 
 
 We encourage all participants to actively engage in the program, ask questions, and seek assistance if needed. Stay tuned for updates and announcements regarding the schedule or any additional resources that may enhance your learning experience. We're excited about your participation and the opportunity to explore the potential of watsonx technologies together!
