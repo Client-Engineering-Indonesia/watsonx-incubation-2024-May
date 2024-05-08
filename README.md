@@ -1,4 +1,4 @@
-# watsonx workshop Indonesia
+# watsonx workshop for Indonesia
 Welcome to the WatsonX Workshop Indonesia, an innovative incubation program tailored for local participants fluent in Bahasa Indonesia. This workshop aims to provide comprehensive insights into leveraging WatsonX's enterprise-grade generative AI capabilities across various applications. Through a series of hands-on labs, you will be guided from understanding the fundamentals of generative AI to practical implementation in specific use cases.
 
 This repository comprises multiple labs designed to facilitate your comprehension of utilizing Large Language Models (LLMs) to address your specific requirements.
@@ -6,7 +6,7 @@ This repository comprises multiple labs designed to facilitate your comprehensio
 ## Labs Tutorial
 Let's start from the beginning, following Lab 0 sequentially to ensure a smooth understanding and progression through the subsequent labs:
 
-- [Lab 0: Laptop Environment Check](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%200%20-%20Laptop%20Environment%20Check/README.md)
+- [Lab 0: Laptop Environment Check](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%200%3A%20Laptop%20Environment%20Check/README.md)
 - [Lab 1: Using prompt lab for prompt engineering​  (classification and entity extraction)](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%201%3A%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B%20%20(classification%20and%20entity%20extraction)/README.md)
 - [Lab 2: Common Use Cases for Prompt Lab​  (Summarization and QnA)](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%202%3A%20Common%20Use%20Cases%20for%20Prompt%20Lab%E2%80%8B%20%20(Summarization%20and%20QnA)/readme.md)
 - [Lab 3: Building QnA with watsonx.ai, watsonx assistant and watson discovery](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/setup.md)
