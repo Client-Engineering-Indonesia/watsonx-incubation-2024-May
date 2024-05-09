@@ -122,6 +122,21 @@ Terakhir Klik Finisih dan tunggu proses selesai.
 
 ### Smart Document Understanding
 
+Dalam proses untuk memahami dokumen, terkadang di setiap halamannya akan terdapat beberapa field, seperti header, sub header, text, dan halaman. Tetapi ketika kita coba membaca dokumen langsung dari pdf informasi tersebut tidak dapat kita ekstrak. Dengan menggunakan SDU kita dapat melakukan pendefinisian field pada beberapa halaman yang selanjutnya secara otomatis akan terefleksikan pada seluruh halaman yang ada.
+
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/954408ec-417a-4c4c-91fc-c0efea0bf3bb">
+
+Pilih use your trained model
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/bcd02238-a861-4878-81c8-bcdd9516ae76">
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e6179a80-3d54-438f-88dd-775ed563fe49">
+
+Lalu anda dapat melihat tampilan berikut, pilih field labels yang berada pada toggle paling kanan. Pilih field tertentu lalu tandai field tersebut pada dokumen anda, klik submit page. Lakukan pengulan proses tersebut pada beberapa lembar file. Lalu diakhir anda akan melihat bahwa semua halaman telah teridentifikasi.
+
+
+
 
 
 
