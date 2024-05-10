@@ -27,19 +27,44 @@ After uploading, you will see the following display. The red status indicates th
 <img width="1512" alt="maps status red" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/82b66508-709c-4e5a-af4e-fd32e07e9ed7">
 
 ## Integrate with Watsonx and Watson Discovery
+We are going to integrate Watsonx and Watson Discovery.
+
 Scroll down until you find "build custom extension".
+
 <img width="1512" alt="maps build extension" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/a49d4038-93c3-42e8-88f1-d82638fd95a5">
 
-Download watson discovery api [here]
+Naming the extension as shown below (watsonx). Click Next. Download watsonx oepn api [here]. Upload the watsonx open api that already been download.
+
 <img width="1512" alt="maps integration watsonx" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3e157692-edde-4204-84ea-3416503fd408">
 
+Click next. Review it. Then click finish
+<img width="1512" alt="maps finish extension" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/6ba6e3e1-8411-4bdf-ae7c-0b7cc2ca856d">
+
+You will find something like this, now time to embed the APIkey of watsonx there. Click add
+
+<img width="1512" alt="maps add watsonx" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/e7c2b917-448d-496e-b98b-ff6afbe13bd8">
+
+Select OAuth 2.0 as the authentication type, and fill in the API Key field with your own API key. Click Next then Finish.
+
+<img width="1512" alt="maps watsonx" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/60f9df4b-1262-4b1d-bc17-3f060fc41508">
+
+Voila, the watsonx already integrated with watson assistant 🎈. Now do the same part to integrate Watson Discovery.
+
+Naming the extension as shown below (watson discovery). Download watson discovery open api [here](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Integrate%20watsonx%20assistant%20with%20maps%20location/watson-discovery-query-openapi.json). Upload the watson discovery open api that already been download.
 
 <img width="1512" alt="maps discovery" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/2c3c8912-a307-4e87-8c19-edb403618cd5">
 
+You will find something like this, now time to embed the APIkey of watson discovery there. Click add
+<img width="1512" alt="maps discovery add" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3f570c64-56ae-4194-a071-5cda6c4e162d">
 
+Fill the apikey field with 'api key' and for the password and discovery_url field  we will email it to you. Click Next, click Finish
+<img width="1512" alt="maps apikey for discovery" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3271d1cb-c33a-4e1a-aed1-77eec9eadf41">
 
+Congratulations, you already integrate Watsonx and Watson Discovery with Watson Assistant with no code at all 😃. Your Assistant now should be look like this
 
-## Generating Free Phone Numbers
+<img width="1512" alt="maps configured" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/20d36518-fea6-4087-9259-d0163902c6b1">
+
+## Generate Map
 For testing purposes, generate a free phone number effortlessly.
 
 
