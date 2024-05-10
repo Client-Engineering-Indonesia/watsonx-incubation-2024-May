@@ -25,6 +25,16 @@ Bila anda medefinisikan response sebagai free text, anda dapat memberikan few sh
 
 <img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/e466db0e-e757-401f-b312-5fddc39e96f8">
 
+### 4. Session History
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/79516cb7-7682-4125-aae6-f3717ad8fc2c">
+
+Bila definisikan sebagai "session_history" dan didefiniskan sebagai variable yang dishow, akan terlihat percakapan sebelumnya
+
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/105551267/28da072e-d09a-4e52-8bff-8e656e93e9d7">
+
+"session_history" dapat membantu untuk membuat dialog flow dengan konteks percakapan sebelumnya.
+
 
 
 
