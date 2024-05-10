@@ -60,32 +60,22 @@ You will find something like this, now time to embed the APIkey of watson discov
 Fill the apikey field with 'api key' and for the password and discovery_url field  we will email it to you. Click Next, click Finish
 <img width="1512" alt="maps apikey for discovery" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3271d1cb-c33a-4e1a-aed1-77eec9eadf41">
 
-Congratulations, you already integrate Watsonx and Watson Discovery with Watson Assistant with no code at all 😃. Your Assistant now should be look like this
+Congratulations, you already integrate Watsonx and Watson Discovery to Watson Assistant with no code at all 😃. Your Assistant now should be look like this
 
 <img width="1512" alt="maps configured" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/20d36518-fea6-4087-9259-d0163902c6b1">
 
 ## Generate Map
-For testing purposes, generate a free phone number effortlessly.
+Click Preview, and call the function with something similiar like "saya mau cek lokasi" or "cek lokasi". Then the Watson Assistant will asking you about your destination and currect condition, and will provide you with map. For example here i use destination: 'grannd indonesia' and current location 'fatmawati'
 
+<img width="1297" alt="maps to grand indonesia" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/d7aa117c-b679-4288-a81f-044f982634ac">
 
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/dbb25cc0-5e1a-48ad-8e3b-fd36a0c06891">
+Above shown that, AI can convert your current position (string) into geocode (long lat). We use this prompt to make that happen. If you want to create it more precise, you can also adding more prompt to make it detail.
+<img width="1297" alt="maps prompt" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/58867427-d4a9-4b2e-b0b7-fc505f892c70">
 
-Once created, your free phone number instance is ready for immediate use.
+The long lat then will be as input in the map such as this.
+<img width="1297" alt="map long lat" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/63862bfd-4fd5-49c8-92da-37c205b4ec9e">
 
-
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/fd5e11c5-9029-4321-9504-44aa79d90a04">
-
-## Customizing Speech-to-Text or Text-to-Speech
-Tailor the voice experience to your preferences through the speech-to-text and text-to-speech tabs.
-
-
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/af25eeda-5965-47d3-b082-04c07c0aaf59">
-
-
-Fine-tune your settings for optimal communication.
-
-
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/404f0897-2dc3-4e53-8a44-e40a445bda42">
+What do you think? is it cool to embed map with no code at all? can you imagine how fast to integrate it? Many our client ask this feature for searching the nearest location that integrate with their own databases, AI will convert the destination to geocode, then will search and provide you with the nearest location.
 
 
 
