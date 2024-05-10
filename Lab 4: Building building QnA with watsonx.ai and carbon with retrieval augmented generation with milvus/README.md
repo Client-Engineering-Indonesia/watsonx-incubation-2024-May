@@ -1,4 +1,4 @@
-# Building  Apps with watsonx.ai and Streamlit
+# Building  Apps with watsonx.ai and Carbon
 So I'm guessing you've been hearing a bit about watsonx. Well...now you can build your very own app with it 🙌 (I know...crazy right?!). In this tutorial you'll learn how to build your own LLM powered Streamlit with the Watson Machine Learning library.  
 
 # Startup 🚀
