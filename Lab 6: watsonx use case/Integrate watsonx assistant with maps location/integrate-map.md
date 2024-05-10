@@ -33,7 +33,7 @@ Scroll down until you find "build custom extension".
 
 <img width="1512" alt="maps build extension" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/a49d4038-93c3-42e8-88f1-d82638fd95a5">
 
-Naming the extension as shown below (watsonx). Click Next. Download watsonx oepn api [here]. Upload the watsonx open api that already been download.
+Naming the extension as shown below (watsonx). Click Next. Download watsonx oepn api [here](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Integrate%20watsonx%20assistant%20with%20maps%20location/watsonx-openapi.json). Upload the watsonx open api that already been download.
 
 <img width="1512" alt="maps integration watsonx" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3e157692-edde-4204-84ea-3416503fd408">
 
@@ -65,7 +65,7 @@ Congratulations, you already integrate Watsonx and Watson Discovery to Watson As
 <img width="1512" alt="maps configured" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/20d36518-fea6-4087-9259-d0163902c6b1">
 
 ## Generate Map
-Click Preview, and call the function with something similiar like "saya mau cek lokasi" or "cek lokasi". Then the Watson Assistant will asking you about your destination and currect condition, and will provide you with map. For example here i use destination: 'grannd indonesia' and current location 'fatmawati'
+Click Preview, and call the function with something similiar like "saya mau cek lokasi" or "cek lokasi". Then the Watson Assistant will asking you about your destination and currect condition, and will provide you with map. For example here i use destination: 'grand indonesia' and current location 'fatmawati'
 
 <img width="1297" alt="maps to grand indonesia" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/d7aa117c-b679-4288-a81f-044f982634ac">
 
