@@ -1,16 +1,18 @@
 # Integrating watsonx with Map
-Watson Assistant dapat melakukan embed dengan Map. Sehingga jika ingin memiliki use case untuk mencari lokasi terdekat pada suatu tempat hal tersebut dapat dilakukan. Pada lab ini hanya akan dilakukan integrasi dengan menggunakan Map.
+Watson Assistant can be integrated with map. If you have usecase in finding the nearest area, you can use Watson Assistant to embed the map, and let the AI to choose the nearest place from your database. In this lab, we will only learn to embed map in watson assistant and using AI to convert string to longitude and latitude (geocode).
 
 
-## Menambahkan assistant baru
+## Create New Assistant
+Create new assistant
+
+<img width="1512" alt="maps create new" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/53940b59-6d55-4984-add3-7094bf562e98">
+
+This is the new appearance of the assistant that has been created. Go to the settins to upload the flow (action.json) of map and whastapp [hai](google.com) 
+
+<img width="1512" alt="maps upload" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/d9a512e9-9f14-4c3a-9b7c-26ea69bc1464">
 
 
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/8be5092e-ca64-4e6c-a967-6f84086605f0">
 
-Simply integrate a phone where WatsonX is supported by leading providers such as GENESYS, IntelePeer, NICE, CXone, and Twilio.
-
-
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/d6de04f9-6ec5-4569-a2ed-defe47df97ba">
 
 ## Generating Free Phone Numbers
 For testing purposes, generate a free phone number effortlessly.
