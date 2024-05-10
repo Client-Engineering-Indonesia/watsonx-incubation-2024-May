@@ -7,7 +7,8 @@ Create new assistant
 
 <img width="1512" alt="maps create new" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/53940b59-6d55-4984-add3-7094bf562e98">
 
-This is the new appearance of the assistant that has been created. Go to the settins to upload the flow (action.json) of map and whastapp [hai](google.com) 
+This is the new appearance of the assistant that has been created. 
+Go to the settins to upload the flow (action.json) of map and whastapp [download here](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Integrate%20watsonx%20assistant%20with%20maps%20location/Assistant-action.json)
 
 <img width="1512" alt="maps upload" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/d9a512e9-9f14-4c3a-9b7c-26ea69bc1464">
 
