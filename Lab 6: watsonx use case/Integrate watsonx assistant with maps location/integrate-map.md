@@ -20,13 +20,22 @@ Once you open the setting, you will have this display, click the following butto
 Upload the action.json and save it. 
 <img width="1512" alt="maps upload section" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/a5392ce7-c9f1-413f-b0d2-66f5d1d08732">
 
+<img width="1512" alt="maps already upload" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/c4165c05-f81a-4cd1-8ccc-3ec02651986a">
+
 After uploading, you will see the following display. The red status indicates that there are integrations that have not been done yet, so integration needs to be done first. Click the integration, to integrate it with Watsonx and Watson Discovery
 
 <img width="1512" alt="maps status red" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/82b66508-709c-4e5a-af4e-fd32e07e9ed7">
 
 ## Integrate with Watsonx and Watson Discovery
-Scroll down to 
+Scroll down until you find "build custom extension".
 <img width="1512" alt="maps build extension" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/a49d4038-93c3-42e8-88f1-d82638fd95a5">
+
+Download watson discovery api [here]
+<img width="1512" alt="maps integration watsonx" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3e157692-edde-4204-84ea-3416503fd408">
+
+
+<img width="1512" alt="maps discovery" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/2c3c8912-a307-4e87-8c19-edb403618cd5">
+
 
 
 
