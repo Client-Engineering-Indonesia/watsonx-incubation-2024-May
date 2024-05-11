@@ -43,7 +43,7 @@ Go to sanbox, you will find your barcode and also the phone number that will loo
 
 <img width="1512" alt="wa to whats app" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/eed1e573-840c-42ec-99e0-a54a12b660a5">
 
-<img width="1474" alt="Zl7Ec" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/6fef5222-4fe4-457f-9cdc-f716bdc67934">
+<img width="1324" alt="wa open" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/0bfd0df2-fd90-41c9-97e5-4d453fb6b3f4">
 
 To connect with your Watson Assistant flow, you need to send "join sandbox name". For example below the sanbox join name is join enjoy-village. You can find your sanbox name in the QR code on Twilio.
 
@@ -59,7 +59,7 @@ After you reply the message, you will now see all of the requirment in Twilio al
 
 <img width="1512" alt="wa finish the sandbox" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/5b261890-da01-4cda-81e2-434789c0dfbe">
 
-You can start to asking anything in this document
+You can start to asking anything in this [document](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/data/Peraturan_Perusahaan.pdf)
 
 <img width="969" alt="wa finished " src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/bfcebe99-4f70-48ff-acd7-ab3e0db25e9d">
 
