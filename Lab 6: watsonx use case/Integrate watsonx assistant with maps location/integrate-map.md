@@ -58,7 +58,6 @@ You will find something like this, now time to embed the APIkey of watson discov
 <img width="1512" alt="maps discovery add" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3f570c64-56ae-4194-a071-5cda6c4e162d">
 
 Fill the apikey field with 'api key' and for the password and discovery_url field  we will email it to you. Click Next, click Finish
-<img width="1512" alt="maps apikey for discovery" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/3271d1cb-c33a-4e1a-aed1-77eec9eadf41">
 
 Congratulations, you already integrate Watsonx and Watson Discovery to Watson Assistant with no code at all 😃. Your Assistant now should be look like this
 
