@@ -75,7 +75,9 @@ Above shown that, AI can convert your current position (string) into geocode (lo
 The long lat then will be as input in the map such as this.
 <img width="1297" alt="map long lat" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/63862bfd-4fd5-49c8-92da-37c205b4ec9e">
 
-What do you think? is it cool to embed map with no code at all? can you imagine how fast to integrate it? Many our client ask this feature for searching the nearest location that integrate with their own databases, AI will convert the destination to geocode, then will search and provide you with the nearest location.
+What do you think? is it cool to embed map with no code at all? can you imagine how fast to integrate it? 
+
+Many our client ask this feature for searching the nearest location that integrate with their own databases, AI will convert the destination to geocode, then will search and provide you with the nearest location.
 
 
 
