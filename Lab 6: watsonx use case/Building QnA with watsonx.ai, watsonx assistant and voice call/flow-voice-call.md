@@ -2,7 +2,7 @@
 To ensure a seamless flow, it's essential to ensure that the flow meets our expectations. We'll create several intents, such as greetings, introductions, knowledge retrieval, and connecting with a live agent.
 
 
-### Integration Setup:
+## Integration Setup:
 1. **Upload OAS Files:**
 First, you need to upload OAS for call watsonx and watsonx discovery API in the integration tab
 [Upload OAS file name watsonx-openapii.json](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20voice%20call/watsonx-openapii.json) and [Upload OAS file name watson-discovery-query-openapi.json](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20voice%20call/watson-discovery-query-openapi.json)
@@ -17,8 +17,8 @@ Second, you need to upload phone-action.json in the global setting. Once you upl
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/cb3a75da-ff4a-497d-83c6-536eca45a166">
 
 
-### Flow Overview:
-**Greet Customer:**
+## Flow Overview:
+### Greet Customer:
 Ensure the bot welcomes users by setting the condition "Channel Name" to "Phone" as the first interaction.
   
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/5da3cce4-9501-464d-bf25-dbe9ea46820e">
@@ -36,13 +36,13 @@ Then, whenever the user says something we will direct it to either one of these 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/e1070c0d-5e13-4504-965d-3327005ef511">
 
 
-**Introduction:**
+### Introduction:
 The assistant responds to casual greetings with "Is there any help?"
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/cd755a7e-40a3-459e-bd9f-e1a7764f412b">
 
 
-**Policy:**
+### Policy:
 Handles queries regarding company policy or leave policies using watsonx ai and watson discovery.
   
 First, we need to put the intention, if the user asks about the policy or leaves the company. The assistant will proceed in this flow.
@@ -85,7 +85,7 @@ In the last step, this is where the output of watsonx ai is generated
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/18039bfb-e807-436f-bd03-7134ad425f8c">
 
 
-**Live Agent:**
+### Live Agent:
 Transfers to a live agent for direct assistance.
 
 
@@ -94,7 +94,7 @@ Transfers to a live agent for direct assistance.
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/a7e14914-0d35-4f14-8404-c3b93b2c0c72">
 
 
-**End Conversation:**
+### End Conversation:
 Concludes the call if the user indicates they have received enough assistance.
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/a0631fea-9cd4-4cc3-86a7-d3258865ce35">
