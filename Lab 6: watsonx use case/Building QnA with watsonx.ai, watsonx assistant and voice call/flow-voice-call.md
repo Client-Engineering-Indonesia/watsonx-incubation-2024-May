@@ -7,7 +7,7 @@ To ensure a seamless flow, it's essential to ensure that the flow meets our expe
 First, you need to upload OAS for call watsonx and watsonx discovery API in the integration tab
 [Upload OAS file name watsonx-openapii.json](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20voice%20call/watsonx-openapii.json) and [Upload OAS file name watson-discovery-query-openapi.json](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%206%3A%20watsonx%20use%20case/Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20voice%20call/watson-discovery-query-openapi.json)
 
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/0528cecc-f33f-4378-8f98-4f115f9869c8">
+<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/dfc426cc-9562-41b3-b40b-0cd33faad581">
 
 
 2. **Upload Phone Action File:**
