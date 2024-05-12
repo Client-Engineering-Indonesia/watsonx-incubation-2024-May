@@ -58,8 +58,9 @@ Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Bua
 Your task is to summarize the information based on the information provided.
 
 **Instruction:** 
-Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Dari transcript buatlah structur json yang berisi rangkuman seperti contoh dibawah ini:
+Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Jawaban hanya berupa struktur format json yang berisi rangkuman dari transkrip tersebut tanpa menambah informasi lainnya selain format json
 
+**Example:**
 Input:
 ```
 00:00 [Budi] Halo semua, 
@@ -76,30 +77,32 @@ Input:
 
 Output:
 ```
-{"action_items": [ 
-{ 
-"action": "Kerjakan fitur-fitur lainnya dari proyek X.", 
-"due_to": "Jumat, 27 Oktober 2023, pukul 12.00 WIB", 
-"pic": "Cici" 
-}, 
-{ 
-"action": "Jawab pertanyaan pelanggan Z tentang proyek X.", 
-"due_to": "Kamis, 26 Oktober 2023, pukul 10.00 WIB", 
-"pic": "Cici" 
-}, 
-{ 
-"action": "Siapkan laporan proyek untuk disampaikan kepada tim penjualan.", 
-"due_to": "Rabu, 25 Oktober 2023, pukul 08.00 WIB", 
-"pic": "Dedi" 
-}, 
-{ 
-"action": "Hubungi pelanggan Y dan Z untuk mengatur pengiriman produk dan jadwalkan pelatihan.", 
-"due_to": "Minggu, 24 Oktober 2023, pukul 06.00 WIB", 
-"pic": "Cici" 
-}]}
+{
+    "action_items": [
+        {
+            "action": "Kerjakan fitur-fitur lainnya dari proyek Y.",
+            "due_to": "Senin, 30 Oktober 2023, pukul 17.00 WIB",
+            "pic": "Budi"
+        },
+        {
+            "action": "Jawab pertanyaan pelanggan B tentang proyek Y.",
+            "due_to": "Senin, 30 Oktober 2023, pukul 17.00 WIB",
+            "pic": "Budi dan Dedi"
+        },
+        {
+            "action": "Siapkan dokumen desain sistem proyek Y untuk disampaikan kepada pelanggan.",
+            "due_to": "Rabu, 25 Oktober 2023, pukul 11.00 WIB",
+            "pic": "Dedi"
+        },
+        {
+            "action": "Hubungi pelanggan A dan B untuk mengatur rapat demo.",
+            "due_to": "Jumat, 27 Oktober 2023, pukul 14.00 WIB",
+            "pic": "Cici"
+        }
+    ]
+}
 ```
 
-Example:
 ```
 00:00 [Budi] Halo semua, 
 00:05 [Budi] Saya ingin membagikan pembaruan tentang proyek X hari ini. 
@@ -113,8 +116,25 @@ Example:
 01:40 [Budi] Terima kasih atas kerja keras kalian semua. 
 ```
 
-![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/dad72831-b80b-40d7-b614-f8671ef0bd22)
+**Result Example:**
+<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/098dc460-b969-4c6f-b501-c6e4f3186695">
 
 
-
+**Exercise:**
+```
+00:00 [Manager] Selamat pagi tim, saya harap semuanya dalam keadaan baik hari ini.
+00:05 [Manager] Seperti yang telah dibahas sebelumnya, kita perlu meninjau kemajuan Proyek Alpha dan merencanakan langkah selanjutnya.
+00:15 [Project Lead] Saya senang bisa memberitahu Anda bahwa Proyek Alpha telah mencapai tahap pengembangan akhir.
+00:25 [Project Lead] Saat ini, kami sedang melakukan uji coba integrasi antara modul A dan B.
+00:35 [Developer 1] Ada beberapa masalah kecil yang muncul selama uji coba, tapi kami sedang dalam proses penyelesaian.
+00:45 [Manager] Bagus. Kami perlu memastikan bahwa semua bug diperbaiki sebelum tahap pengujian lanjutan.
+00:55 [QA Lead] Saya akan memastikan tim QA untuk memeriksa semua fitur dan melaporkan bug secepat mungkin.
+01:05 [Project Lead] Saya berharap kita dapat menyelesaikan pengujian tambahan dan perbaikan bug pada Rabu, 25 Mei 2024, pukul 18.00 WIB.
+01:20 [Manager] Baiklah. Setelah itu, kita perlu merencanakan peluncuran beta.
+01:30 [Marketing Lead] Saya akan mengoordinasikan dengan tim pemasaran untuk mempersiapkan kampanye peluncuran beta.
+01:40 [Manager] Selain itu, kita juga perlu mempersiapkan materi pelatihan untuk pelanggan yang akan menggunakan produk ini.
+01:50 [Training Lead] Saya akan memimpin tim pelatihan untuk menyusun materi dan jadwal pelatihan.
+02:05 [Manager] Terakhir, saya ingin menyampaikan bahwa presentasi proyek akan dilakukan pada Jumat, 26 Mei 2024, pukul 10.00 WIB.
+02:15 [Manager] Terima kasih atas dedikasi dan kerja keras kalian. Mari kita pastikan Proyek Alpha sukses diluncurkan!
+```
 
