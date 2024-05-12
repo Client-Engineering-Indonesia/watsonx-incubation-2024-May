@@ -6,23 +6,26 @@ In this demonstration, your objective is to effectively get **Personal Identifia
 ### Description:
 Your task is to identify and extract personal information (PII) from the provided text. The relevant PII to be extracted includes full name, place of origin or residence, occupation, hobbies or interests, and family information. Please identify and record the relevant PII from the given text.
 
-Instruction: Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribadi (PII) dari teks tersebut. Informasi pribadi yang perlu diekstrak termasuk nama lengkap, tempat tinggal atau asal, pekerjaan, hobi atau minat, dan informasi keluarga. Silakan identifikasi dan catat PII yang relevan dari teks yang diberikan.
+**Instruction:** Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribadi (PII) dari teks tersebut. Informasi pribadi yang perlu diekstrak termasuk nama lengkap, tempat tinggal atau asal, pekerjaan, hobi atau minat, dan informasi keluarga. Silakan identifikasi dan catat PII yang relevan dari teks yang diberikan.
 
-"Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut."
+**Example:** 
+- "Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut."
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/a38f5e30-31bc-4379-9a29-f54d62612689">
 
 **Exercise:**
-"""Pada sebuah acara kumpul-kumpul di kafe kota, saya berkenalan dengan seorang wanita bernama Emily Smith. Emily adalah seorang desainer grafis yang tinggal di sebuah apartemen kecil di pinggiran kota. Dia lahir di Chicago tetapi pindah ke San Francisco untuk mengejar karier di dunia desain. Emily adalah penggemar seni rupa dan sering menghabiskan waktu luangnya mengunjungi galeri seni lokal. Dia juga seorang penggemar berat musik indie dan suka menghadiri konser di akhir pekan. Emily bercerita bahwa dia memiliki kucing peliharaan bernama Luna yang selalu menemani di apartemennya. Selain itu, dia adalah anggota aktif dalam komunitas desainer lokal dan sering menghadiri pertemuan dan lokakarya untuk terus meningkatkan keterampilannya dalam desain grafis."""
+- """Pada sebuah acara kumpul-kumpul di kafe kota, saya berkenalan dengan seorang wanita bernama Emily Smith. Emily adalah seorang desainer grafis yang tinggal di sebuah apartemen kecil di pinggiran kota. Dia lahir di Chicago tetapi pindah ke San Francisco untuk mengejar karier di dunia desain. Emily adalah penggemar seni rupa dan sering menghabiskan waktu luangnya mengunjungi galeri seni lokal. Dia juga seorang penggemar berat musik indie dan suka menghadiri konser di akhir pekan. Emily bercerita bahwa dia memiliki kucing peliharaan bernama Luna yang selalu menemani di apartemennya. Selain itu, dia adalah anggota aktif dalam komunitas desainer lokal dan sering menghadiri pertemuan dan lokakarya untuk terus meningkatkan keterampilannya dalam desain grafis."""
 
 ***
 
-**2. Email Content:**
-You task is to recreate the email content without sensitive information provided
+### Email Content:
+Your task is to recreate the email content without the sensitive information provided
 
-Instruction: Berdasarkan email di atas, lakukan hal berikut: buatlah ulang email dengan menghapus informasi pribadi yang sensitif seperti nama individu, alamat, nomor telepon, nomor HP, alamat email, nomor kartu kredit, dan informasi medis. Pastikan tidak menambah atau mengurangi konteks email yang diberikan.
+**Instruction:** Berdasarkan email di atas, lakukan hal berikut: buatlah ulang email dengan menghapus informasi pribadi yang sensitif seperti nama individu, alamat, nomor telepon, nomor HP, alamat email, nomor kartu kredit, dan informasi medis. Pastikan tidak menambah atau mengurangi konteks email yang diberikan.
 
-"""Yth. Bapak Putra,
+**Example:**
+```
+Yth. Bapak Putra,
 
 Semoga email ini menemukan Bapak dalam keadaan sehat. Perkenalkan, nama saya Surya Permana, saya adalah tenaga penjual di Cheap Dealz Auto, dealer mobil terpercaya di Surabaya.
 Saya mengetahui bahwa Bapak baru saja membeli mobil baru. Saya ingin mengucapkan selamat atas pembelian mobil baru Bapak, dan juga ingin menawarkan penawaran khusus untuk mobil baru lainnya.
@@ -42,7 +45,8 @@ Cheap Dealz Auto
 Jl. Soekarno hatta No.125, Surabaya
 
 No HP: (0812)12293456
-Email: SuryaPermana@CDAuto"""
+Email: SuryaPermana@CDAuto
+```
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/04bd2692-9d64-4788-90c6-ea01d1656b31">
 
