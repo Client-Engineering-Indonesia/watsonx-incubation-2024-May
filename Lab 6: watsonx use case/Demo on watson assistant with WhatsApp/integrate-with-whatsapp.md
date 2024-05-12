@@ -15,7 +15,7 @@ Twilio will ask you to fill out surveys; you can choose to skip or answer the su
 
 <img width="1512" alt="wa survey" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/01b9adec-6d9d-44a3-a61b-6e8a1e4b8d38">
 
-**Take a note for Account SID and Auth Token**
+Copy and save your **Account SID and Auth Token**
 
 <img width="1512" alt="wa account sid and auth token" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/59eec09d-23e0-4be2-a20b-88b51196d14d">
 
@@ -27,7 +27,7 @@ Enter your Account SID from Twilio into Watson Assistant, then click 'Next.' Pro
 
 <img width="1297" alt="wa account sid in wa" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/7ed6af7b-ea02-4696-a667-acfbcdbcbcb5">
 
-The Watson Assistant will provide you with webhook link. **Copy the link of webhook**. Click Save.
+The Watson Assistant will provide you with webhook link. **Copy the link of webhook**. Click Finish.
 
 <img width="1297" alt="wa webhook" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/a25908e0-328d-4187-82c4-6faeb027f330">
 
