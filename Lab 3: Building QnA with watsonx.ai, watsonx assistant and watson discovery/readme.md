@@ -1,9 +1,9 @@
 # Building QnA with watsonx.ai, watsonx assistant, and watson discovery
 ## Introduction
-Pada modul ini, kita akan membuat service sederhana untuk bisa melakukan tanya jawab dari dokumen yang kita miliki. Pada prosesnya untuk bisa mencapai target tersebut, kita akan melakukan beberapa konfigurasi, yakni:
-1. Memasukan dokumen pada watson discovery: [Link Berikut](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/setup-watson-discovery.md)
-2. Membuat chat sederhana di watsonx assistant: [Link Berikut](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/setup-watsonx-assistant.md)
-3. Mengintegrasi watson discovery dengan watsonx.ai pada watsonx assistant: [Link Berikut](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/set-up-the-RAG.md)
+In this module, we will create a simple service to be able to do questions and answers from the documents we have. In the process to achieve this target, we will carry out several configurations, namely:
+1. Entering documents in Watson Discovery: [This Link](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/setup-watson-discovery.md)
+2. Create a simple chat on WhatsApp Assistant: [This Link](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/setup-watsonx-assistant.md)
+3. Integrating watson discovery with watsonx.ai on watsonx assistant: [This Link](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/blob/main/Lab%203%3A%20Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20watson%20discovery/set-up-the-RAG.md)
 
 ## Output
-Setelah menyelesaikan modul ini diharapkan peserta dapat mengetahui kapabiltas standar dari watson discovery, watsonx assistant, dan watsonx.ai
+After completing this module, participants are expected to be able to understand the standard capabilities of Watson Discovery, WatsonX Assistant, and Watsonx.ai
