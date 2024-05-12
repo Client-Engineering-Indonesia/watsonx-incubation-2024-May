@@ -11,7 +11,8 @@ Your task is to review the information based on the product perspective.
 **Example:** 
 - Kebetulan lagi perlu lampu untuk ruang tidur saya, dan ternyata lampu tidur LightPro ini punya battery cadangan juga, dan dari segi harga juga cukup terjangkau, jadi saya memutuskan langsung membelinya. Walau kabelnya rusak selama pengiriman, penjual mau menggantinya. Dan ternyata ada bagian yang kurang lengkap juga, dan saya langsung memberi tahu penjual. Barang yang kurang lengkap dikirim bersamaan dengan kabel yang baru! menurut saya Lumina adalah perusahaan yang peduli dengan pelanggannya, dan bertanggung jawab dengan produk mereka!!
 
-  
+
+**Result Example:**
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/36d4f65f-bd3e-4585-a3cb-63fbe29279ef">
 
 
@@ -30,6 +31,7 @@ Your task is to give recommendations and suggestions based on the review
 - Saya biasanya memesan makanan dari restoran Thai Delight secara langsung dan selalu puas dengan kualitasnya. Namun, akhir-akhir ini saya mencoba menggunakan aplikasi pengiriman makanan untuk memesan makanan dari restoran tersebut. Sayangnya, saya menemui beberapa masalah, seperti pesanan yang sering terlambat sampai dan tidak sesuai dengan yang saya pesan. Bahkan, saya pernah mengalami kesulitan untuk menghubungi layanan pelanggan ketika ada masalah dengan pesanan saya.
 
 
+**Result Example:**
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/860ad151-7808-4189-9416-f9814bca40e3">
 
 
