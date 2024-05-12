@@ -29,6 +29,7 @@ Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Bua
 ```
 
 
+**Result Example:** 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/5d713ad5-cc02-43fe-95ea-7cd001bacbfb">
 
 
