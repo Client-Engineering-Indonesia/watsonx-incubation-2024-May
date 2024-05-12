@@ -17,6 +17,6 @@ Here, we explore how watsonx can integrate with WhatsApp.
 - [watsonx use case - Intergate watsonx assistant with WhatsApp](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/tree/main/Lab%206%3A%20watsonx%20use%20case/Demo%20on%20watson%20assistant%20with%20WhatsApp)
 
 ## Building QnA with watsonx.ai, watsonx assistant and voice call
-Lastly, this demo illustrates WatsonX's capability to handle voice calls.
+Lastly, this demo illustrates watsonx's capability to handle voice calls.
 
 - [watsonx use case - Building QnA with watsonx.ai, watsonx assistant and voice call](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/tree/main/Lab%206%3A%20watsonx%20use%20case/Building%20QnA%20with%20watsonx.ai%2C%20watsonx%20assistant%20and%20voice%20call)
