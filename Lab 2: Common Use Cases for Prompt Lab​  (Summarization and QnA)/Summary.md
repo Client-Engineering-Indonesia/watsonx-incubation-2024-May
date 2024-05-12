@@ -1,10 +1,10 @@
-## Summary
+![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/5ad01f61-63cb-42da-8da6-91b40985a0d3)## Summary
 In this demonstration, your objective is to get a **Summarization** based on the information from the passage text based on your specific requirements. Feel free to use zero-shot, one-shot, or few-shot learning, and adjust your model parameter and instruction of the prompt.
 
 ***
 
 ### Meeting Summarization:
-Your task is to summarize the information based on the information provided.
+Your task is to summarize the information from the meeting conversation and generate Minutes Of Meeting (MoM) report.
 
 **Instruction:** 
 Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Buatlah dalam bahasa Indonesia dengan format Minutes Of Meeting (MoM), mencakup topik, kapan meeting dilaksanakan, daftar peserta, ringkasan, poin penting dalam bentuk daftar, dan langkah-langkah selanjutnya yang diambil.
@@ -51,3 +51,70 @@ Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Bua
 11:10 [Rina] Dengan adanya dukungan dari semua pihak, saya rasa kita sudah siap untuk melangkah ke tahap implementasi. Terima kasih atas kontribusi dan ide-ide yang sangat berharga dari masing-masing dari Anda.
 11:15 [Rina] Pak Joko, tolong koordinasikan dengan tim pelatihan untuk memulai implementasi program pengembangan karyawan sesuai dengan rencana yang telah disusun.
 ```
+
+***
+
+### Meeting Summarization in JSON:
+Your task is to summarize the information based on the information provided.
+
+**Instruction:** 
+Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Dari transcript buatlah structur json yang berisi rangkuman seperti contoh dibawah ini:
+
+Input:
+```
+00:00 [Budi] Halo semua, 
+00:05 [Budi] Saya ingin membagikan pembaruan tentang proyek Y hari ini. 
+00:15 [Budi] Proyek Y telah memasuki tahap pengembangan. Kami telah menyelesaikan beberapa fitur utama, dan kami sedang mengerjakan fitur-fitur lainnya. 
+00:30 [Cici] Bagus sekali! 
+00:35 [Cici] Saya mendengar dari pelanggan A hari ini, dan mereka sangat senang dengan proyek Y. Mereka mengatakan bahwa proyek ini memenuhi semua kebutuhan mereka. 
+00:45 [Dedi] Pelanggan B juga mengatakan mereka sangat puas dengan proyek Y. Mereka hanya memiliki beberapa permintaan perubahan kecil. 
+01:05 [Budi] Kami akan bekerja sama dengan pelanggan B untuk memenuhi permintaan perubahan mereka. Kami berharap dapat menyelesaikan pengembangan proyek Y pada Senin, 30 Oktober 2023, pukul 17.00 WIB. 
+01:20 [Cici] Baiklah, saya akan menghubungi pelanggan A dan B untuk mengatur rapat demo pada Jumat, 27 Oktober 2023, pukul 14.00 WIB. 
+01:30 [Dedi] Saya akan menyiapkan dokumen desain sistem proyek Y untuk disampaikan kepada pelanggan pada Rabu, 25 Oktober 2023, pukul 11.00 WIB. 
+01:40 [Budi] Terima kasih atas kerja keras kalian semua. 
+```
+
+Output:
+```
+{"action_items": [ 
+{ 
+"action": "Kerjakan fitur-fitur lainnya dari proyek X.", 
+"due_to": "Jumat, 27 Oktober 2023, pukul 12.00 WIB", 
+"pic": "Cici" 
+}, 
+{ 
+"action": "Jawab pertanyaan pelanggan Z tentang proyek X.", 
+"due_to": "Kamis, 26 Oktober 2023, pukul 10.00 WIB", 
+"pic": "Cici" 
+}, 
+{ 
+"action": "Siapkan laporan proyek untuk disampaikan kepada tim penjualan.", 
+"due_to": "Rabu, 25 Oktober 2023, pukul 08.00 WIB", 
+"pic": "Dedi" 
+}, 
+{ 
+"action": "Hubungi pelanggan Y dan Z untuk mengatur pengiriman produk dan jadwalkan pelatihan.", 
+"due_to": "Minggu, 24 Oktober 2023, pukul 06.00 WIB", 
+"pic": "Cici" 
+}]}
+```
+
+Example:
+```
+00:00 [Budi] Halo semua, 
+00:05 [Budi] Saya ingin membagikan pembaruan tentang proyek X hari ini. 
+00:15 [Budi] Proyek X telah memasuki tahap pengujian akhir. Kami telah menyelesaikan semua fitur utama, dan kami sedang mengerjakan beberapa perbaikan bug kecil. 
+00:30 [Cici] Bagus sekali! 
+00:35 [Cici] Saya mendengar dari pelanggan Y hari ini, dan mereka sangat senang dengan proyek X. Mereka mengatakan bahwa proyek ini memenuhi semua kebutuhan mereka. 
+00:45 [Dedi] Pelanggan Z juga mengatakan mereka sangat puas dengan proyek X. Mereka hanya memiliki beberapa permintaan perubahan kecil. 
+01:05 [Budi] Kami akan bekerja sama dengan pelanggan Z untuk memenuhi permintaan perubahan mereka. Kami berharap dapat menyelesaikan proyek X pada Jumat, 27 Oktober 2023, pukul 12.00 WIB. 
+01:20 [Cici] Baiklah, saya akan menghubungi pelanggan Y dan Z untuk mengatur pengiriman produk dan jadwalkan pelatihan pada Kamis, 26 Oktober 2023, pukul 10.00 WIB. 
+01:30 [Dedi] Saya akan menyiapkan laporan proyek untuk disampaikan kepada tim penjualan pada Rabu, 25 Oktober 2023, pukul 08.00 WIB. 
+01:40 [Budi] Terima kasih atas kerja keras kalian semua. 
+```
+
+![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/dad72831-b80b-40d7-b614-f8671ef0bd22)
+
+
+
+
