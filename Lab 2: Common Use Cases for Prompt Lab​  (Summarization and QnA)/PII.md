@@ -9,16 +9,12 @@ Your task is to identify and extract personal information (PII) from the provide
 **Instruction:** Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribadi (PII) dari teks tersebut. Informasi pribadi yang perlu diekstrak termasuk nama lengkap, tempat tinggal atau asal, pekerjaan, hobi atau minat, dan informasi keluarga. Silakan identifikasi dan catat PII yang relevan dari teks yang diberikan.
 
 **Example:** 
-```
-Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut.
-```
+- Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut.
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/a38f5e30-31bc-4379-9a29-f54d62612689">
 
 **Exercise:**
-```
-Pada sebuah acara kumpul-kumpul di kafe kota, saya berkenalan dengan seorang wanita bernama Emily Smith. Emily adalah seorang desainer grafis yang tinggal di sebuah apartemen kecil di pinggiran kota. Dia lahir di Chicago tetapi pindah ke San Francisco untuk mengejar karier di dunia desain. Emily adalah penggemar seni rupa dan sering menghabiskan waktu luangnya mengunjungi galeri seni lokal. Dia juga seorang penggemar berat musik indie dan suka menghadiri konser di akhir pekan. Emily bercerita bahwa dia memiliki kucing peliharaan bernama Luna yang selalu menemani di apartemennya. Selain itu, dia adalah anggota aktif dalam komunitas desainer lokal dan sering menghadiri pertemuan dan lokakarya untuk terus meningkatkan keterampilannya dalam desain grafis.
-```
+- Pada sebuah acara kumpul-kumpul di kafe kota, saya berkenalan dengan seorang wanita bernama Emily Smith. Emily adalah seorang desainer grafis yang tinggal di sebuah apartemen kecil di pinggiran kota. Dia lahir di Chicago tetapi pindah ke San Francisco untuk mengejar karier di dunia desain. Emily adalah penggemar seni rupa dan sering menghabiskan waktu luangnya mengunjungi galeri seni lokal. Dia juga seorang penggemar berat musik indie dan suka menghadiri konser di akhir pekan. Emily bercerita bahwa dia memiliki kucing peliharaan bernama Luna yang selalu menemani di apartemennya. Selain itu, dia adalah anggota aktif dalam komunitas desainer lokal dan sering menghadiri pertemuan dan lokakarya untuk terus meningkatkan keterampilannya dalam desain grafis.
 
 ***
 
@@ -51,30 +47,6 @@ Jl. Soekarno hatta No.125, Surabaya
 No HP: (0812)12293456
 Email: SuryaPermana@CDAuto"
 ```
-
-<div style="border: 1px solid black; padding: 10px;">
-"Dear Mr. Putra,
-
-I hope this email finds you well. My name is Surya Permana, and I'm a sales representative at Cheap Dealz Auto, a trusted car dealership in Surabaya.
-I understand you've recently purchased a new car. Congratulations on your new purchase! I'd like to extend a special offer for our other new car models.
-Currently, Cheap Dealz Auto is hosting a massive promotion for new cars, offering a variety of models at highly competitive prices.
-Furthermore, we're providing various bonuses and attractive gifts with every new car purchase.
-
-If you're interested in learning more about our promotion, please feel free to contact me via phone or email provided below. I'd be delighted to assist you in selecting a new car that suits your needs and budget.
-
-Thank you for your attention.
-
-Best regards,
-
-Surya Permana
-Cheap Dealz Auto
-
-Address: Jl. Soekarno Hatta No.125, Surabaya
-
-Mobile: (0812)12293456
-Email: SuryaPermana@CDAuto"
-</div>
-
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/04bd2692-9d64-4788-90c6-ea01d1656b31">
 
