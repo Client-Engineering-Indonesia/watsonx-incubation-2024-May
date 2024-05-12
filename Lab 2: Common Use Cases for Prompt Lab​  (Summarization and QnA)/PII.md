@@ -28,8 +28,8 @@ Your task is to recreate the email content without the sensitive information pro
 **Instruction:** Berdasarkan email di atas, lakukan hal berikut: buatlah ulang email dengan menghapus informasi pribadi yang sensitif seperti nama individu, alamat, nomor telepon, nomor HP, alamat email, nomor kartu kredit, dan informasi medis. Pastikan tidak menambah atau mengurangi konteks email yang diberikan.
 
 **Example:**
-<div style="border: 1px solid black; padding: 10px;">
-"Yth. Bapak Putra,
+```
+Yth. Bapak Putra,
 
 Semoga email ini menemukan Bapak dalam keadaan sehat. Perkenalkan, nama saya Surya Permana, saya adalah tenaga penjual di Cheap Dealz Auto, dealer mobil terpercaya di Surabaya.
 Saya mengetahui bahwa Bapak baru saja membeli mobil baru. Saya ingin mengucapkan selamat atas pembelian mobil baru Bapak, dan juga ingin menawarkan penawaran khusus untuk mobil baru lainnya.
@@ -50,7 +50,31 @@ Jl. Soekarno hatta No.125, Surabaya
 
 No HP: (0812)12293456
 Email: SuryaPermana@CDAuto"
+```
+
+<div style="border: 1px solid black; padding: 10px;">
+"Dear Mr. Putra,
+
+I hope this email finds you well. My name is Surya Permana, and I'm a sales representative at Cheap Dealz Auto, a trusted car dealership in Surabaya.
+I understand you've recently purchased a new car. Congratulations on your new purchase! I'd like to extend a special offer for our other new car models.
+Currently, Cheap Dealz Auto is hosting a massive promotion for new cars, offering a variety of models at highly competitive prices.
+Furthermore, we're providing various bonuses and attractive gifts with every new car purchase.
+
+If you're interested in learning more about our promotion, please feel free to contact me via phone or email provided below. I'd be delighted to assist you in selecting a new car that suits your needs and budget.
+
+Thank you for your attention.
+
+Best regards,
+
+Surya Permana
+Cheap Dealz Auto
+
+Address: Jl. Soekarno Hatta No.125, Surabaya
+
+Mobile: (0812)12293456
+Email: SuryaPermana@CDAuto"
 </div>
+
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/04bd2692-9d64-4788-90c6-ea01d1656b31">
 
