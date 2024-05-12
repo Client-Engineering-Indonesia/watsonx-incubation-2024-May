@@ -1,4 +1,4 @@
-![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/5ad01f61-63cb-42da-8da6-91b40985a0d3)## Summary
+## Summary
 In this demonstration, your objective is to get a **Summarization** based on the information from the passage text based on your specific requirements. Feel free to use zero-shot, one-shot, or few-shot learning, and adjust your model parameter and instruction of the prompt.
 
 ***
