@@ -12,6 +12,7 @@ Your task is to identify and extract personal information (PII) from the provide
 - Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut.
 
 
+**Result Example:**
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/7eeb4c63-222a-4671-88e0-cc83bad36ef9">
 
 
@@ -51,6 +52,7 @@ Email: SuryaPermana@CDAuto"
 ```
 
 
+**Result Example:**
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/04bd2692-9d64-4788-90c6-ea01d1656b31">
 
 
