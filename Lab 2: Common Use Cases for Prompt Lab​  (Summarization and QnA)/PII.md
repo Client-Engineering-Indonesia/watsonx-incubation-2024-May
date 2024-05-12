@@ -1,9 +1,10 @@
 ## Personal Identifiable Information
-In this demonstration, your objective is to effectively get **Personal Identifiable Information** based on the information from the passage text based on your specific requirements. Feel free to use zero-shot, one-shot, or few-shot learning, and adjust your model parameter and instruction of the prompt.
+In this demonstration, your objective is to effectively get **Personal Identifiable Information (PII)** based on the information from the passage text based on your specific requirements. Feel free to use zero-shot, one-shot, or few-shot learning, and adjust your model parameter and instruction of the prompt.
 
+***
 
-**1. Description:**
-You need to extract the information (PII) based on what is the description tells you about
+### Description:
+Your task is to identify and extract personal information (PII) from the provided text. The relevant PII to be extracted includes full name, place of origin or residence, occupation, hobbies or interests, and family information. Please identify and record the relevant PII from the given text.
 
 Instruction: Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribadi (PII) dari teks tersebut. Informasi pribadi yang perlu diekstrak termasuk nama lengkap, tempat tinggal atau asal, pekerjaan, hobi atau minat, dan informasi keluarga. Silakan identifikasi dan catat PII yang relevan dari teks yang diberikan.
 
@@ -17,7 +18,7 @@ Instruction: Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribad
 ***
 
 **2. Email Content:**
-You need to recreate the email without sensitive information
+You task is to recreate the email content without sensitive information provided
 
 Instruction: Berdasarkan email di atas, lakukan hal berikut: buatlah ulang email dengan menghapus informasi pribadi yang sensitif seperti nama individu, alamat, nomor telepon, nomor HP, alamat email, nomor kartu kredit, dan informasi medis. Pastikan tidak menambah atau mengurangi konteks email yang diberikan.
 
