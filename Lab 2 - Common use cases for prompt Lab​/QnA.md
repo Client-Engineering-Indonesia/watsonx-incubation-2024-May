@@ -14,9 +14,6 @@ konteks: AI Generatif adalah jenis kecerdasan buatan yang mampu menciptakan kont
 
 **Example Question:** 
 - Apa itu Generative AI?
-
-
-**Result Example:** 
 Generative AI adalah jenis kecerdasan buatan yang mampu menciptakan konten dan ide baru dalam berbagai bentuk, seperti percakapan, cerita, gambar, video, dan musik.
 
 
