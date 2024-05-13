@@ -17,7 +17,7 @@ konteks: AI Generatif adalah jenis kecerdasan buatan yang mampu menciptakan kont
 
 
 **Result Example:** 
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/4e2a890c-e49f-4ad6-8eec-de7d8be6cd98">
+Generative AI adalah jenis kecerdasan buatan yang mampu menciptakan konten dan ide baru dalam berbagai bentuk, seperti percakapan, cerita, gambar, video, dan musik.
 
 
 **Exercise:** 
