@@ -24,6 +24,8 @@ Complete the steps in this guide to ensure your desktop environment has all the 
 ### 0: (For Mac Users Only) Install/Update Xcode <a id="install-update-xcode"></a>
 Setting up your environment via the steps below can reveal various distinct problems, several of which will be the result of not having your Mac properly setup for development. Xcode is a collection of developer tools that enable building applications for Apple's various operating systems (MacOS, iOS, etc) but also comes with some command line tools and a C compiler. The latter are necessary to install some of the dependencies for this training.
 
+❗If you are a windows user, you can just skip this process and continue to process number 1❗
+
 ❗ Please wait for several moments because updating xcode will take time quite long❗
 
 Access the App Store and search for "xcode." Click the "Get" button or the Cloud icon to install the latest version.
@@ -143,5 +145,3 @@ Now that you have successfully finished creating your .env file, **make sure tha
 
 ### 10: .gitignore Files <a id="gitignore"></a>
 Whenever checking code into a Github repo, use .gitignore to exclude files from being checked-in. If you don't know how to do this, [learn how to add your .env to .gitignore](https://salferrarello.com/add-env-to-gitignore/).
-
-## If you are using windows, you can click this link:
