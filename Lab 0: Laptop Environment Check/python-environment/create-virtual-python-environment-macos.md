@@ -1,13 +1,12 @@
 # Create Virtual Python Environment
 Python applications import multiple libraries, and oftentimes, conflicts can occur between different versions of required libraries.  However your app may require a specific library version due to a bug fix.  The solution is to create a virtual environment, a self-contained suite of libraries for a specific Python installation.
 
-We will use Python's built-in virtual environment functionality which was introduced in Python version 3.3 and provides [a built-in environments module called venv](https://docs.python.org/3/tutorial/venv.html).  We dont use Conda because [Conda/Miniconda is now on IBM's "do-not-use" list](https://w3.ibm.com/w3publisher/ossc-process/exception-and-do-not-use) env.
+We will use Python's built-in virtual environment functionality which was introduced in Python version 3.3 and provides [a built-in environments module called venv](https://docs.python.org/3/tutorial/venv.html). 
 
 While creating your virtual Python environment below, you will also be installing all the libraries required to complete this Boot Camp including:
 1. Jupyter Notebook
 2. the Watson Machine Learning Python SDK
-3. Hugging Face libraries
-4. LangChain.
+3. LangChain.
 
 ### 1.  Upgrade to Python v3.11 to Avoid Any Conflicts
 Upgrading Python versions can be complicated so don't be afraid to ask for help during this process.  We have documented best practices to assist you.  You may have no issues using Python 3.8 plus, but recall that even Python 3.9 is 2.5 years old.  [Follow these best practices to upgrade to Python 3.11](upgrade-python.md).
