@@ -1,13 +1,16 @@
 ## Summary
 In this demonstration, your objective is to get a **Summarization** based on the information from the passage text based on your specific requirements. Feel free to use zero-shot, one-shot, or few-shot learning, and adjust your model parameter and instruction of the prompt.
 
+
 ***
+
 
 ### Meeting Summarization:
 Your task is to summarize the information from the meeting conversation and generate Minutes Of Meeting (MoM) report.
 
 **Instruction:** 
 Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Buatlah dalam bahasa Indonesia dengan format Minutes Of Meeting (MoM), mencakup topik, kapan meeting dilaksanakan, daftar peserta, ringkasan, poin penting dalam bentuk daftar, dan langkah-langkah selanjutnya yang diambil.
+
 
 **Example:** 
 ```
@@ -30,7 +33,31 @@ Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Bua
 
 
 **Result Example:** 
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/5d713ad5-cc02-43fe-95ea-7cd001bacbfb">
+```
+Minutes of Meeting (MoM)
+
+Topik: Implementasi Sistem Baru untuk Proses Produksi
+Tanggal: 8 Mei
+Daftar Peserta:
+- Agus
+- Budi
+- Cici
+- Dedi
+
+Ringkasan:
+Pertemuan online ini membahas implementasi sistem baru untuk proses produksi yang menjadi fokus utama. Pak Budi menjelaskan desain dan arsitektur sistem baru yang akan diterapkan, termasuk keuntungan utama seperti efisiensi yang ditingkatkan dan integrasi yang lebih mulus dengan sistem yang ada. Peserta juga membahas strategi mitigasi risiko dan menangani potensi kendala selama proses migrasi.
+
+Poin Penting:
+- Implementasi sistem baru untuk proses produksi
+- Desain dan arsitektur sistem baru menggunakan infrastruktur cloud computing yang canggih
+- Keuntungan utama: efisiensi yang ditingkatkan dan integrasi yang lebih mulus dengan sistem yang ada
+- Strategi mitigasi risiko dan menangani potensi kendala selama proses migrasi
+- Evaluasi rutin untuk memastikan performa sistem tetap optimal
+
+Langkah-Langkah Selanjutnya:
+- Pak Budi akan mengoordinasikan dengan tim IT untuk memulai tahap migrasi data yang telah direncanakan dengan cermat.
+- Evaluasi rutin akan dilakukan untuk memastikan performa sistem tetap optimal dan sesuai dengan harapan.
+```
 
 
 **Exercise:** 
@@ -53,7 +80,9 @@ Anda adalah asisten yang bertugas untuk menganalisis percakapan dalam rapat. Bua
 11:15 [Rina] Pak Joko, tolong koordinasikan dengan tim pelatihan untuk memulai implementasi program pengembangan karyawan sesuai dengan rencana yang telah disusun.
 ```
 
+
 ***
+
 
 ### Meeting Summarization in JSON:
 Your task is to summarize the information based on the information provided.
@@ -118,7 +147,32 @@ Output:
 ```
 
 **Result Example:**
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/098dc460-b969-4c6f-b501-c6e4f3186695">
+```
+{
+    "action_items": [
+        {
+            "action": "Kerjakan perbaikan bug kecil dari proyek X",
+            "due_to": "Jumat, 27 Oktober 2023, pukul 12.00 WIB",
+            "pic": "Budi"
+        },
+        {
+            "action": "Jawab pertanyaan pelanggan Z tentang proyek X.",
+            "due_to": "Jumat, 27 Oktober 2023, pukul 12.00 WIB",
+            "pic": "Budi dan Dedi"
+        },
+        {
+            "action": "Siapkan laporan proyek untuk disampaikan kepada tim penjualan.",
+            "due_to": "Rabu, 25 Oktober 2023, pukul 08.00 WIB",
+            "pic": "Dedi"
+        },
+        {
+            "action": "Hubungi pelanggan Y dan Z untuk mengatur pengiriman produk dan jadwalkan pelatihan.",
+            "due_to": "Kamis, 26 Oktober 2023, pukul 10.00 WIB",
+            "pic": "Cici"
+        }
+    ]
+}
+```
 
 
 **Exercise:**
