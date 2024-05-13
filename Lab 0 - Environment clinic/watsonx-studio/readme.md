@@ -7,7 +7,7 @@ Here are the available users. Password will be given when incubation start.
 - Lourensius.bisma+wxinc24_Avrist_1@mail.test.ibm.com
 - Lourensius.bisma+wxinc24_Prudential_1@mail.test.ibm.com
 - Lourensius.bisma+wxinc24_Bizcom_1@mail.test.ibm.com
-- Lourensius.bisma+wxinc24_Indofoox_1@mail.test.ibm.com
+- Lourensius.bisma+wxinc24_Indofood_1@mail.test.ibm.com
 
 URL: https://dataplatform.cloud.ibm.com/
 
