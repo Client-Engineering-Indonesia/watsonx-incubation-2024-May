@@ -3,8 +3,10 @@
 
 ### watsonx.ai Environments
 
-watsonx.ai memudahkan kita untuk berinteraksi dengan LLM model dengan menyediakan _LLM-as-a-service_.
-di watsonx.ai kita bisa menggunakan __Prompt Lab dan Python SDK__. Dengan menggunakan Prompt Lab atau Prompt Builder anda bisa memberikan instruksi ke LLM model yang tersedia menggunakan web interface. Sementara jika anda lebih berminat untuk mengakses LLM model menggunakan bahasa pemrograman, anda bisa menggunakan SDK.
+watsonx.ai makes it easy for us to interact with the LLM model by providing _LLM-as-a-service_.
+in watsonx.ai we can use __Prompt Lab and Python SDK__. By using Prompt Lab or Prompt Builder you can provide instructions to the available LLM models using the web interface. Meanwhile, if you are more interested in accessing the LLM model using a programming language, you can use the SDK 
+
+Jika anda membutuhkan referensi untuk jawaban diatas, anda bisa mengakses python notebook Lab 2 [here](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/tree/main/Lab%204%3A%20Building%20building%20QnA%20with%20watsonx.ai%20and%20carbon%20with%20retrieval%20augmented%20generation%20with%20milvus)
 
 Untuk memahami bagaimana menggunakan Prompt Lab, dan berlatih cara memberikan prompt ke LLM Model, selesaikanlah lab berikut ini:
 1. [Lab 1 - Prompt engineering basic](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-program-indonesia/blob/main/Lab%201%20-%20Using%20Prompt%20Lab%20for%20Prompt%20Engineering/Lab%201%20-%20Prompt%20engineering%20basic.ipynb)
