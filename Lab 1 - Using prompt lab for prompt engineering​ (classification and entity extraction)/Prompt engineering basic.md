@@ -1,4 +1,4 @@
-# Prompt engineering
+![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/7532acd1-674b-4219-9180-9d54360790f3)# Prompt engineering
 
 **Note:** Gambar berikut menunjukkan hasil dari watsonx.ai. Teks berwarna abu-abu adalah contoh input yang dapat berikan untuk model. Teks yang di-highlight biru adalah respons dari model.
 
@@ -48,3 +48,80 @@ Sebutkan langkah-langkah memulai bisnis online
 
 Sebutkan langkah-langkah memulai bisnis kuliner
 ```
+
+### 1.4 Include descriptive details
+Semakin detail instruksi yang diberikan, semakin baik:
+- Content
+- Style
+- Length
+dari response yang diberikan
+
+<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/776e05ba-1ad6-4da3-b613-5b6007e73e79">
+
+
+# Model Parameter
+***
+
+### 2.0 Adjusting Model behavior
+Perubahan pertama yang bisa kita lakukan adalah model (LLM) apa yang kita gunakan untuk mengeksekusi prompt kita. Ini adalah salah satu perubahan terbesar yang dapat Anda lakukan, karena model tertentu dibuat lebih baik untuk tugas tertentu. Latihan selanjutnya di lab ini akan meminta Anda mengubah model yang digunakan jika ingin menjawab beberapa pertanyaan yang lebih menantang.
+
+Secara umum, beberapa model bekerja lebih baik dengan peringkasan, kata kunci, dan semantik, sementara model lainnya bekerja lebih baik dengan teks terstruktur seperti HTML, markdown, atau JSON. Cara terbaik untuk mengetahui model mana yang cocok untuk kasus penggunaan Anda adalah dengan mengujinya, namun penting untuk mengetahui bahwa pilihan model dapat membuat perbedaan besar!
+
+watsonx.ai juga menyediakan beberapa parameter untuk mengonfigurasi cara LLM merespons permintaan. Memilih parameter yang benar seringkali lebih merupakan seni daripada sains. Menginvestasikan waktu untuk memahami prompting dan kemudian mengubah parameter dari model dapat membantu menghasilkan respons yang lebih baik.
+
+Coba berkesperimen dalam pengaturan parameter dengan menggunakan teks berikut:
+
+```
+Sebutkan langkah-langkah memulai bisnis online
+1. Pilih produk atau jasa yang akan Anda jual.
+2. Lakukan riset pasar.
+3. Buat rencana bisnis.
+4. Dapatkan izin dan sertifikasi yang diperlukan.
+5. Buat situs web atau toko online.
+6. Promosikan bisnis Anda.
+7. Layanan pelanggan yang baik.
+
+Sebutkan langkah-langkah memulai bisnis kuliner
+```
+
+### 2.1 Set the min and max tokens
+
+Jika Anda merasa teks yang dihasilkan terlalu pendek atau panjang, coba sesuaikan parameter yang mengontrol jumlah token baru:
+- Parameter __Min new tokens__ mengontrol jumlah minimum token (~kata) dari respons yang dihasilkan
+- Parameter __Max new tokens__ mengontrol jumlah maksimum token (~kata) dari respons yang dihasilkan
+
+
+<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/d4171956-a448-4839-89b5-4fe1e44a28c1">
+
+
+### 2.2 Specify stop sequences
+
+Jika Anda menentukan _stop sequence_, output akan otomatis berhenti ketika salah satu _stop sequence_ muncul pada keluaran yang dihasilkan.
+__double enter__ biasa ditambahkan mencegah model mengenerate ulang output dikarenakan jumlah token yang dihasilkan belum mencapai _max tokens_
+
+![image.png](attachment:image.png)
+
+
+### 2.3 Adjust decoding parameters
+
+Jika responsnya terlalu umum atau menyimpang, pertimbangkan untuk mengatur parameter decoding. Atau ketika response mungkin kurang kreatif, pengaturan juga ada baiknya dilakukan.
+
+`Decoding adalah proses menentukan urutan keluaran berdasarkan urutan masukan`
+
+- `Greedy decoding` memilih kata dengan probabilitas tertinggi pada setiap langkah proses decoding.
+- `Sampling decoding` memilih kata-kata dari distribusi probabilitas di setiap langkah
+- `Temperatur` mengacu pada pemilihan kata dengan probabilitas tinggi atau rendah. Nilai temperature yang lebih tinggi menyebabkan lebih banyak variabilitas.
+- Top-p (pengambilan sampel inti) mengacu pada pemilihan kumpulan kata terkecil yang probabilitas kumulatifnya melebihi p.
+- Top-k mengacu pada pemilihan k-kata dengan probabilitas tertinggi di setiap langkah. Nilai yang lebih tinggi menyebabkan lebih banyak variabilitas.
+Keuntungan dari penguraian Greedy decosing adalah Anda akan melihat hasil yang dapat direproduksi. Ini dapat berguna saat melakukan pengetesan. Menyetel temperature=0 dalam pendekatan sampling decoding memberikan variasi yang sama seperti Greedy decoding.
+
+![img-22-param](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-program-indonesia/blob/main/Lab%201%20-%20Using%20Prompt%20Lab%20for%20Prompt%20Engineering/Images/img-22-param.png?raw=true)
+
+### 2.4 Add a repetition penalty
+
+Terkadang, Anda akan melihat teks yang diulang-ulang. Menaikkan temperature terkadang dapat menyelesaikan masalah. Namun, ketika teks masih berulang bahkan dengan dengan pengaturan temperature yang lebih tinggi, Anda dapat mencoba menambahkan _repetition penality_. Semakin tinggi nilai penalty-nya, semakin kecil kemungkinan terdapatnya teks berulang.
+
+
+### 2.5 Excellent 3rd party blog post on model parameters
+
+Uraian di atas memberikan pengenalan yang cukup baik tentang parameter apa saja yang model. Namun Anda harus membaca [artikel ini](https://txt.cohere.com/llm-parameters-best-outputs-language-ai) tentang parameter yang dimiliki model karena dapat memberikan contoh tambahan yang sangat baik tentang bagaimana parameter model bekerja ditambah ada ilustrasi yang dapat membantu Anda lebih memahami konsepnya. Semakin baik Anda memahami parameter model, semakin anda terhindar dari frustrasi dan semakin mudah untuk menyesuaikan model agar berfungsi sesuai kebutuhan Anda.
