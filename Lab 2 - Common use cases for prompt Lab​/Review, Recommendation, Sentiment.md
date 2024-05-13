@@ -6,14 +6,20 @@ In this demonstration, your objective is to get sentiment **review, recommendati
 ### Product Review:
 Your task is to review the information based on the product perspective.
 
+
 **Instruction:** Anda adalah asisten yang bertugas untuk menganalisis konteks dalam ulasan produk. Temukan informasi seperti sentimen pengguna (positif/netral/negatif) dan alasannya, apakah terdapat konteks yang mencerminkan kekecewaan atau kepuasan, nama produk yang diulas, dan berikan informasi tentang perusahaan yang bersangkutan. Sebagai asisten dalam ulasan produk, tugas Anda adalah menganalisis dan mengumpulkan informasi yang relevan dari ulasan yang tersedia. Jawablah pertanyaan dalam bahasa Indonesia dan susun dalam format JSON tanpa informasi tambahan atau tanggapan.
+
 
 **Example:** 
 - Kebetulan lagi perlu lampu untuk ruang tidur saya, dan ternyata lampu tidur LightPro ini punya battery cadangan juga, dan dari segi harga juga cukup terjangkau, jadi saya memutuskan langsung membelinya. Walau kabelnya rusak selama pengiriman, penjual mau menggantinya. Dan ternyata ada bagian yang kurang lengkap juga, dan saya langsung memberi tahu penjual. Barang yang kurang lengkap dikirim bersamaan dengan kabel yang baru! menurut saya Lumina adalah perusahaan yang peduli dengan pelanggannya, dan bertanggung jawab dengan produk mereka!!
 
 
 **Result Example:**
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/36d4f65f-bd3e-4585-a3cb-63fbe29279ef">
+```
+{"sentimen": "positif",",
+"produk": "Lampu tidur LightPro",
+"perusahaan": "Lumina"}
+```
 
 
 **Exercise:**
@@ -22,17 +28,24 @@ Your task is to review the information based on the product perspective.
 
 ***
 
+
 ### Recommendation
 Your task is to give recommendations and suggestions based on the review
 
+
 **Instruction:** Anda adalah asisten yang bertugas untuk menganalisis konteks dalam ulasan produk. Berikan rekomendasi untuk meningkatkan produk atas review yang diberikan
+
 
 **Example:** 
 - Saya biasanya memesan makanan dari restoran Thai Delight secara langsung dan selalu puas dengan kualitasnya. Namun, akhir-akhir ini saya mencoba menggunakan aplikasi pengiriman makanan untuk memesan makanan dari restoran tersebut. Sayangnya, saya menemui beberapa masalah, seperti pesanan yang sering terlambat sampai dan tidak sesuai dengan yang saya pesan. Bahkan, saya pernah mengalami kesulitan untuk menghubungi layanan pelanggan ketika ada masalah dengan pesanan saya.
 
 
 **Result Example:**
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/860ad151-7808-4189-9416-f9814bca40e3">
+```
+1. Meningkatkan akurasi pesanan dengan memastikan bahwa pesanan yang dikirimkan sesuai dengan yang dipesan.
+2. Meningkatkan kecepatan pengiriman pesanan untuk mengurangi waktu tunggu pelanggan.
+3. Meningkatkan kualitas layanan pelanggan dengan memastikan bahwa pelanggan dapat dengan mudah menghubungi layanan pelanggan ketika ada masalah dengan pesanan.
+```
 
 
 **Exercise:**
