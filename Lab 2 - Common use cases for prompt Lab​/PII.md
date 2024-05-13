@@ -9,12 +9,15 @@ Your task is to identify and extract personal information (PII) from the provide
 **Instruction:** Tugas Anda adalah mengidentifikasi dan mengekstrak informasi pribadi (PII) dari teks tersebut. Informasi pribadi yang perlu diekstrak termasuk nama lengkap, tempat tinggal atau asal, pekerjaan, hobi atau minat, dan informasi keluarga. Silakan identifikasi dan catat PII yang relevan dari teks yang diberikan. Pastikan tidak menambah atau mengurangi konteks yang diberikan dan pastikan jawaban hanya berupa PII.
 
 **Example:** 
-- Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut.
-
+Pada hari Senin, tanggal 12 Mei 2024, saya menghadiri sebuah seminar di Hotel XYZ. Di sana, saya bertemu dengan seorang pria muda bernama John Doe. John adalah seorang insinyur perangkat lunak yang bekerja di perusahaan teknologi terkemuka. Dia berasal dari New York City dan saat ini tinggal di apartemen di pusat kota. Selain menjadi seorang profesional yang sangat berbakat, John juga seorang pecinta olahraga, terutama basket. Dia berbagi cerita tentang pengalaman bermain basket di tim perguruan tinggi dan kegembiraannya saat timnya meraih kemenangan di turnamen regional. John juga menyebutkan bahwa dia memiliki saudara perempuan yang tinggal di Los Angeles dan bahwa dia adalah anak tertua dalam keluarganya. Dia tertarik pada topik AI dan berencana untuk menghadiri workshop Gen AI pada bulan depan untuk memperluas pengetahuannya dalam bidang tersebut.
 
 **Result Example:**
-<img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/20800128/7eeb4c63-222a-4671-88e0-cc83bad36ef9">
-
+Nama lengkap: John Doe
+Tempat tinggal: apartemen di pusat kota
+Asal: New York City
+Pekerjaan: insinyur perangkat lunak
+Hobi/minat: basket
+Informasi keluarga: memiliki saudara perempuan yang tinggal di Los Angeles, anak tertua dalam keluarganya
 
 **Exercise:**
 - Pada sebuah acara kumpul-kumpul di kafe kota, saya berkenalan dengan seorang wanita bernama Emily Smith. Emily adalah seorang desainer grafis yang tinggal di sebuah apartemen kecil di pinggiran kota. Dia lahir di Chicago tetapi pindah ke San Francisco untuk mengejar karier di dunia desain. Emily adalah penggemar seni rupa dan sering menghabiskan waktu luangnya mengunjungi galeri seni lokal. Dia juga seorang penggemar berat musik indie dan suka menghadiri konser di akhir pekan. Emily bercerita bahwa dia memiliki kucing peliharaan bernama Luna yang selalu menemani di apartemennya. Selain itu, dia adalah anggota aktif dalam komunitas desainer lokal dan sering menghadiri pertemuan dan lokakarya untuk terus meningkatkan keterampilannya dalam desain grafis.
