@@ -1,4 +1,4 @@
-![image](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/7532acd1-674b-4219-9180-9d54360790f3)# Prompt engineering
+# Prompt engineering
 
 **Note:** Gambar berikut menunjukkan hasil dari watsonx.ai. Teks berwarna abu-abu adalah contoh input yang dapat berikan untuk model. Teks yang di-highlight biru adalah respons dari model.
 
