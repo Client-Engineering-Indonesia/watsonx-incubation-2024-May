@@ -1,4 +1,4 @@
-# Lab 1 - Using Prompt Lab for Prompt Engineering
+# Prompt Lab for Prompt Engineering
 
 
 ### watson studio
