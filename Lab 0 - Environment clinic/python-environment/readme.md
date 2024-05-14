@@ -46,7 +46,7 @@ The Watson Machine Learning Python SDK requires a project ID to interact with wa
 1. Visit the [watsonx.ai Projects page](https://dataplatform.cloud.ibm.com/projects/?context=wx) and click "Create an empty project". Give your project a valid name, and leave the remaining default options. Click "Create" and verify that your project was successfully created.
 2. Once your new project loads, select the "Manage" tab from the Project's main page. You will see your Project ID under the "General" tab as shown below. You will need this project ID for [step 8](#environment-files).
 
-<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/1b294c91-a370-429f-b77d-38aa9bcc93b9">
+<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/065b9929c2722b7d922f2de63cd2f69b5ddcb2a9/data/image/environment-get-project-id.png">
 
 
 ### 3: Associate your project with a WML instance <a id="wml-instance"></a>
@@ -62,10 +62,10 @@ A watsonx.ai project must *always* be associated with an instance of Watson Mach
 4. Select `Associate service +`
 5. Choose a WML instance and select `Associate`
 
-<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/79bf7586-d574-4f8d-9c7c-35007cb07615">
+<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/065b9929c2722b7d922f2de63cd2f69b5ddcb2a9/data/image/wml-instance-1.png">
 
 
-<img width="1012" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/175784ba-bd66-4de7-a513-f92c001b0676">
+<img width="1012" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/8e28d2751f365087061a63ed8f310d70aabb7f37/data/image/wml-instance-2.png">
 
 
 ### 4: Obtain your IBM Cloud API key <a id="obtain-api-key"></a>
