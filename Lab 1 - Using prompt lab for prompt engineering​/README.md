@@ -11,5 +11,5 @@ in watsonx.ai we can use __Prompt Lab and Python SDK__. By using Prompt Lab or P
 ***
 
 To understand how to use the Prompt Lab, and practice how to provide prompts to the LLM Model, complete the following lab:
-1. [Lab 1 - Prompt engineering basic](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/Lab%201%20-%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B%20(classification%20and%20entity%20extraction)/Prompt%20engineering%20basic.ipynb)
-2. [Lab 1 - Prompt engineering tasks](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/Lab%201%20-%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B%20(classification%20and%20entity%20extraction)/Prompt%20engineering%20tasks.ipynb)
+1. [Lab 1 - Prompt engineering basic](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/Lab%201%20-%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B/Prompt%20engineering%20basic.md)
+2. [Lab 1 - Prompt engineering tasks](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/Lab%201%20-%20Using%20prompt%20lab%20for%20prompt%20engineering%E2%80%8B/Prompt%20engineering%20tasks.ipynb)
