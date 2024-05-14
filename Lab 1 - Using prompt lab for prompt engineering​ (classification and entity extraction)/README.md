@@ -1,5 +1,10 @@
 # Lab 1 - Using Prompt Lab for Prompt Engineering
 
+
+### watson studio
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/7004936c-e438-465a-8aad-0655ce8b25ce">
+
+
 ### watsonx.ai Environments
 
 watsonx.ai makes it easy for us to interact with the LLM model by providing _LLM-as-a-service_.
