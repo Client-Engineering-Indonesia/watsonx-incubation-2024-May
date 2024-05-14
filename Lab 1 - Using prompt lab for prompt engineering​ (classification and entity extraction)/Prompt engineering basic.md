@@ -1,7 +1,5 @@
 # Prompt engineering
 
-**Note:** Gambar berikut menunjukkan hasil dari watsonx.ai. Teks berwarna abu-abu adalah contoh input yang dapat berikan untuk model. Teks yang di-highlight biru adalah respons dari model.
-
 ### 1.0 LLM Foundations
 Sebelum kita mulai mengeksplorasi kemampuan watsonx.ai, pertama-tama kita perlu mengetahui tentang cara kerja Model Bahasa Besar (LLM), dan bagaimana kita dapat menyesuaikan model dan parameter untuk mengubah output yang dihasilkan. Mengetahui hal tersebut dapat membantu kita untuk lebih efisien menggunakan LLM model.
 
@@ -33,6 +31,7 @@ Untuk mendapatkan respons dengan kualitas yang lebih baik, berikan contoh jenis 
 
 <img width="1722" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/476a38eb-d70f-482e-9a11-b59c5271dce9">
 
+**Note:** Gambar berikut menunjukkan hasil dari watsonx.ai. Teks berwarna abu-abu adalah contoh input yang dapat berikan untuk model. Teks yang di-highlight biru adalah respons dari model.
 
 Seperti yang Anda lihat, memberikan satu contoh sebelum memberikan perintah ke LLM disebut dengan Single Shot Prompting, namun menambahkan lebih banyak contoh ke dalam prompt juga lumrah untuk dilakukan. Umumnya, memberikan contoh dalam jumlah yang lebih dari satu disebut sebagai “Few Shot Prompting” dan merupakan cara yang ampuh untuk memastikan Anda mendapatkan hasil yang spesifik.
 
