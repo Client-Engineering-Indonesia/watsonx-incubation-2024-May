@@ -44,9 +44,6 @@ Input: Gamma Industries mengumumkan pendapatan sebesar $75 juta untuk kuartal pe
 Output: ???
 
 
-*****
-
-
 Input: PT. XYZ mengumumkan pendapatan sebesar Rp500 miliar untuk kuartal pertama tahun 2023, dengan laba bersih sebesar Rp50 miliar. EBITDA untuk periode tersebut dilaporkan sebesar Rp75 miliar, sedangkan arus kas dari operasi sebesar Rp100 miliar.
 
 
