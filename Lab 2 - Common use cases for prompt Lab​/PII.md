@@ -65,6 +65,7 @@ Semoga email ini menemukan Bapak dalam keadaan sehat. Perkenalkan, saya adalah t
 Saya mengetahui bahwa Bapak baru saja membeli mobil baru. Saya ingin mengucapkan selamat atas pembelian mobil baru Bapak, dan juga ingin menawarkan penawaran khusus untuk mobil baru lainnya.
 Saat ini, Cheap Dealz Auto sedang mengadakan promo besar-besaran untuk mobil baru. Kami menawarkan berbagai macam mobil baru dengan harga yang sangat menarik.
 Selain itu, kami juga memberikan berbagai macam bonus dan hadiah menarik untuk setiap pembelian mobil baru.
+
 Jika Bapak tertarik untuk mengetahui lebih lanjut tentang promo kami, silakan hubungi saya melalui kontak di bawah ini.
 Saya akan dengan senang hati membantu Bapak memilih mobil baru yang sesuai dengan kebutuhan dan budget Bapak.
 
