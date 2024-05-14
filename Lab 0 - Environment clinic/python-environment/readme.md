@@ -30,7 +30,7 @@ Setting up your environment via the steps below can reveal various distinct prob
 
 Access the App Store and search for "xcode." Click the "Get" button or the Cloud icon to install the latest version.
 
-<img width="364" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/d3148fe3-f8d4-4112-9fb7-302b8ba3e370">
+<img width="364" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/data/image/xcode.png">
 
 
 ### 1: Connect to watsonx.ai <a id="connect-to-watsonxai"></a>
