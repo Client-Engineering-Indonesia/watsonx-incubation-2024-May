@@ -31,14 +31,12 @@ Input:
 Untuk tahun fiskal 2022, Beta Inc. memiliki laba bersih sebesar $150 juta, dan EBITDA sebesar $200 juta. Cash flow dari operasi dilaporkan sebesar $180 juta.
 
 
-**Result Example:** 
-
-
 Output:
+```
 - Net Income: $150 juta (FY 2022)
 - EBITDA: $200 juta (FY 2022)
 - Cash Flow: $180 juta (FY 2022)
-
+```
 
 **Exercise:** 
 
