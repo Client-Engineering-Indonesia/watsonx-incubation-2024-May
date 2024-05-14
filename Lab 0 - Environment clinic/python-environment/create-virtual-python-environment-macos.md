@@ -5,8 +5,9 @@ We will use Python's built-in virtual environment functionality which was introd
 
 While creating your virtual Python environment below, you will also be installing all the libraries required to complete this Boot Camp including:
 1. Jupyter Notebook
-2. the Watson Machine Learning Python SDK
+2. Watson Machine Learning Python SDK
 3. LangChain.
+4. Milvus
 
 ### 1.  Upgrade to Python v3.11 to Avoid Any Conflicts
 Upgrading Python versions can be complicated so don't be afraid to ask for help during this process.  We have documented best practices to assist you.  You may have no issues using Python 3.8 plus, but recall that even Python 3.9 is 2.5 years old.  [Follow these best practices to upgrade to Python 3.11](upgrade-python.md).
@@ -32,21 +33,8 @@ You can validate that your environment is active by looking at the start of the 
 
 <img width="532" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/0a0ae2df-2949-48cb-83e7-f9ff347fc660">
 
-Note: If you are a Windows user, instead of running the command `source genai/bin/activate`, follow the steps in [Setting-up-Python-Virtual-Environment-in-Windows.docx](./Setting-up-Python-Virtual-Environment-in-Windows.docx). 
+Note: If you are a Windows user, instead of running the command `source genai/bin/activate`, follow the steps in [Setting-up-Python-Virtual-Environment-in-Windows.docx](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/blob/main/Lab%200%20-%20Environment%20clinic/python-environment/create-virtual-python-environment-windows.md). 
 
-Note: If you do not have an M1 chip, you might get an error along the lines of:
-```
-× Building wheel for chroma-hnswlib (pyproject.toml) did not run successfully.
-```
-If so, try one of these two solutions, replacing `python -m pip install -r requirements_venv.txt` with
-```
-export HNSWLIB_NO_NATIVE=1
-python -m pip install -r requirements_venv.txt
-```
-or
-```
-ARCHFLAGS="-arch x86_64" python -m pip install -r requirements_venv.txt
-```
 
 ### 5. Dectivate your Python virtual environment
 If you need to change to a different environment, you can deactivate your current environment using the command below:
