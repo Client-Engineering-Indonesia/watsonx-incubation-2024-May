@@ -30,7 +30,8 @@ Setting up your environment via the steps below can reveal various distinct prob
 
 Access the App Store and search for "xcode." Click the "Get" button or the Cloud icon to install the latest version.
 
-![images/xcode.png](images/xcode.png)
+<img width="364" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/d3148fe3-f8d4-4112-9fb7-302b8ba3e370">
+
 
 ### 1: Connect to watsonx.ai <a id="connect-to-watsonxai"></a>
 Ensure that you can log into to [watsonx.ai](https://dataplatform.cloud.ibm.com/wx/). You will use the watsonx.ai UI for the first two labs focused on Prompt Engineering. The later labs involve interacting with watsonx.ai programmatically via the new [Foundation Models module](https://ibm.github.io/watson-machine-learning-sdk/foundation_models.html) in the [Watson Machine Learning Python Library](https://pypi.org/project/ibm-watson-machine-learning/). The WML Python library library allows you to run Python code from VS Code on your local machine to submits model inference requests to the GA instance of watsonx.ai.
@@ -45,9 +46,8 @@ The Watson Machine Learning Python SDK requires a project ID to interact with wa
 1. Visit the [watsonx.ai Projects page](https://dataplatform.cloud.ibm.com/projects/?context=wx) and click "Create an empty project". Give your project a valid name, and leave the remaining default options. Click "Create" and verify that your project was successfully created.
 2. Once your new project loads, select the "Manage" tab from the Project's main page. You will see your Project ID under the "General" tab as shown below. You will need this project ID for [step 8](#environment-files).
 
-<p align="left">
-  <img src="images/environment-get-project-id.png" width="1100"/>
-</p>
+<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/1b294c91-a370-429f-b77d-38aa9bcc93b9">
+
 
 ### 3: Associate your project with a WML instance <a id="wml-instance"></a>
 A watsonx.ai project must *always* be associated with an instance of Watson Machine Learning (WML) before you can use the Prompt Lab or interact with the WML Python SDK.
@@ -62,13 +62,11 @@ A watsonx.ai project must *always* be associated with an instance of Watson Mach
 4. Select `Associate service +`
 5. Choose a WML instance and select `Associate`
 
-<p align="left">
-  <img src="images/wml-instance-1.png" width="1100"/>
-</p>
+<img width="1011" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/79bf7586-d574-4f8d-9c7c-35007cb07615">
 
-<p align="left">
-  <img src="images/wml-instance-2.png" width="1100"/>
-</p>
+
+<img width="1012" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/175784ba-bd66-4de7-a513-f92c001b0676">
+
 
 ### 4: Obtain your IBM Cloud API key <a id="obtain-api-key"></a>
 You will need your IBM Cloud API key to authenticate the Watson Machine Learning Python SDK client and interact with watsonx.ai foundation models. **Note that this is the conventional IBM Cloud API key, which you may have already created in the past.** Use your existing API key or follow [these instructions](https://cloud.ibm.com/docs/account?topic=account-userapikey&interface=ui#create_user_key) to generate a new one in the [IBM cloud console](https://cloud.ibm.com). You will need this API key for [step 8](#environment-files).
