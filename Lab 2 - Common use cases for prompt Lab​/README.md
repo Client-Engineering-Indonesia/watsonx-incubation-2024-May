@@ -1,4 +1,4 @@
-# Lab 2 - Common use cases for prompt lab
+# Common use cases for prompt lab
 
 Discover the power of prompt-based techniques through practical exercises in this lab.
 
