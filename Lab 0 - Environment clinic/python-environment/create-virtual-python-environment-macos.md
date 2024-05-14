@@ -30,9 +30,7 @@ python -m pip install -r requirements_venv.txt
 
 You can validate that your environment is active by looking at the start of the prompt line in your terminal/console window.  As shown below, the start of the prompt changes to show (genai).
 
-<p align="left">
-  <img src="images/environment-activated-python.png" width="500"/>
-</p>
+<img width="532" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/68722344/0a0ae2df-2949-48cb-83e7-f9ff347fc660">
 
 Note: If you are a Windows user, instead of running the command `source genai/bin/activate`, follow the steps in [Setting-up-Python-Virtual-Environment-in-Windows.docx](./Setting-up-Python-Virtual-Environment-in-Windows.docx). 
 
