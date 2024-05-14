@@ -3,6 +3,7 @@ Welcome to the watsonx workshop for Indonesia, an innovative incubation program 
 
 This repository comprises multiple labs to facilitate your comprehension of utilizing Large Language Models (LLMs) to address your specific requirements.
 
+
 ## Labs Tutorial
 Let's start from the beginning, following Lab 0 sequentially to ensure a smooth understanding and progression through the subsequent labs:
 
@@ -14,13 +15,15 @@ Let's start from the beginning, following Lab 0 sequentially to ensure a smooth 
 - [Lab 5 - Hands on deployment in watson studio](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/tree/main/Lab%205%20-%20Hands%20on%20deployment%20in%20watson%20studio)
 - [Lab 6 - watsonx use case](https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/tree/main/Lab%206%20-%20watsonx%20use%20case)
 
+
 ## Two Days Agenda
 Below is the agenda for the watsonx Incubation Program 2024 in Indonesia:
 
 
-<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/3416bc2b-5cf5-4321-8cdf-a5171ac70a6b">
+<img width="1728" alt="image" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2024/assets/20800128/bd41a20a-e2df-404a-b11c-b7541ab7640e">
 
 
 We encourage all participants to actively engage in the program, ask questions, and seek assistance if needed. Stay tuned for updates and announcements regarding the schedule or any additional resources that may enhance your learning experience. We're excited about your participation and the opportunity to explore the potential of watsonx technologies together!
+
 
 Happy Coding!
