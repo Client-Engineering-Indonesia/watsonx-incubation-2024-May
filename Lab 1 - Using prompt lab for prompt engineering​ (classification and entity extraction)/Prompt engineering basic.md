@@ -2,7 +2,7 @@
 
 **Note:** Gambar berikut menunjukkan hasil dari watsonx.ai. Teks berwarna abu-abu adalah contoh input yang dapat berikan untuk model. Teks yang di-highlight biru adalah respons dari model.
 
-1.0 LLM Foundations
+### 1.0 LLM Foundations
 Sebelum kita mulai mengeksplorasi kemampuan watsonx.ai, pertama-tama kita perlu mengetahui tentang cara kerja Model Bahasa Besar (LLM), dan bagaimana kita dapat menyesuaikan model dan parameter untuk mengubah output yang dihasilkan. Mengetahui hal tersebut dapat membantu kita untuk lebih efisien menggunakan LLM model.
 
 
@@ -154,7 +154,7 @@ Model yang lebih kecil dan sederhana di watsonx.ai lebih menantang bagi calon ha
 
 Untuk keamanan, lebih kecil lebih baik. Selain manfaat keamanan, terdapat peningkatan komputasi dengan menggunakan model yang lebih kecil dan berbobot lebih ringan. Mari kita lebih banyak berinteraksi dengan LLM watsonx.ai untuk lebih memahami dan mempelajari cara membuat mereka merespons sesuai kebutuhan kita.
 
-# Further Reading
+### Further Reading
 - [OpenAI prompt intro](https://platform.openai.com/docs/guides/gpt-best-practices)
 - [OpenAI prompt engineering tutorial](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
 - [co:here prompt engineering tutorial](https://docs.cohere.ai/docs/prompt-engineering)
