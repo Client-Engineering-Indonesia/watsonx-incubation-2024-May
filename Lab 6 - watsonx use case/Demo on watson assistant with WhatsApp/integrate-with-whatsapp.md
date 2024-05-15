@@ -63,6 +63,12 @@ You can start to asking anything in this [document](https://github.com/Client-En
 
 <img width="969" alt="wa finished " src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/68722344/bfcebe99-4f70-48ff-acd7-ab3e0db25e9d">
 
+You can start asking question for example
+- saya mau tanya mengenai kapan gaji dibayarkan
+- berapa umur pensiun
+- saya mau tanya mengenai kapan gaji dibayarkan
+- jelaskan kepada saya mengenai THR dan bagaimana mendapatkannya
+
 
 
 
