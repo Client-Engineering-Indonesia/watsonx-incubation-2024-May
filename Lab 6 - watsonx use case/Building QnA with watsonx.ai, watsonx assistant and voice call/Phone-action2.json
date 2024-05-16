@@ -4,7 +4,7 @@
   "valid": true,
   "status": "Available",
   "created": "2024-05-07T08:15:39.672Z",
-  "updated": "2024-05-11T17:16:24.391Z",
+  "updated": "2024-05-15T23:24:06.945Z",
   "language": "en",
   "skill_id": "57c3d640-21e3-457c-a039-63dfeb7275ef",
   "workspace": {
@@ -35,7 +35,7 @@
             },
             "handlers": [],
             "resolver": {
-              "type": "continue"
+              "type": "end_action"
             },
             "variable": "step_314"
           }
@@ -535,9 +535,6 @@
               ]
             },
             "handlers": [],
-            "question": {
-              "free_text": true
-            },
             "resolver": {
               "type": "end_action"
             },
@@ -1245,7 +1242,13 @@
             "text": "berapa hari cuti dalam setahun"
           },
           {
+            "text": "How much leave available per year?"
+          },
+          {
             "text": "i want to take on leave"
+          },
+          {
+            "text": "I want to take paternity leave"
           },
           {
             "text": "policy"

@@ -1,6 +1,20 @@
 # watsonx flow with Phone Voice Calls
 To ensure a seamless flow, it's essential to ensure that the flow meets our expectations. We'll create several intents, such as greetings, introductions, knowledge retrieval, and connecting with a live agent.
 
+[Question Introduction]
+- Hello
+
+[Question Discovery]
+- I want to take paternity leave!
+- How much leave is available per year?
+- what is the process of cancellation of leave
+
+[Question End Conversation]
+- Okay, thank you
+
+[Question Live Agent]
+- I want to talk to a live agent
+
 
 ## Integration Setup:
 1. **Upload OAS Files:**
