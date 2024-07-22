@@ -1,5 +1,7 @@
 # Incubation: watsonx.ai deployment space
 
+Untuk lengkapnya bisa download file berikut [Incubation-Deployment Space.pdf](https://github.com/user-attachments/files/16327350/Incubation-Deployment.Space.pdf)
+
 <img width="613" alt="01" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/32385413/e962405c-27a0-494e-abeb-f1016c7b20d2">
 <hr>
 <img width="612" alt="02" src="https://github.com/Client-Engineering-Indonesia/watsonx-incubation-2/assets/32385413/d0928bd5-3c1b-48c1-9da0-9bffffb92ec8">
